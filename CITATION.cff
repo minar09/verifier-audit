@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite this release and its companion paper."
+title: "Auditing Whole-Item Validity in Generated Visual Tests"
+type: software
+authors:
+  - family-names: Park
+    given-names: Juyeon
+    affiliation: Sogang University
+  - family-names: Minar
+    given-names: Matiur Rahman
+    affiliation: Sogang University
+  - family-names: Kwon
+    given-names: Yunhyeong
+    affiliation: Sogang University
+  - family-names: Park
+    given-names: Unsang
+    affiliation: Sogang University
+preferred-citation:
+  type: article
+  title: "Auditing Whole-Item Validity in Generated Visual Tests: An Executable Benchmark and a Study of Verifier Transfer"
+  authors:
+    - family-names: Park
+      given-names: Juyeon
+    - family-names: Minar
+      given-names: Matiur Rahman
+    - family-names: Kwon
+      given-names: Yunhyeong
+    - family-names: Park
+      given-names: Unsang
