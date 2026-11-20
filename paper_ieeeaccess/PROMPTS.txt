@@ -1,0 +1,76 @@
+Exact frozen prompt templates; placeholders below stand for item fields.
+
+Per-option is family A only; language/domain artifacts are intentionally retained as provenance.
+
+
+A / holistic
+
+You are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer key: Option {key}
+
+Check the item carefully. List every option that correctly answers the question (there may be none, one or several). Then say whether the proposed key is correct, and whether the item is valid, meaning exactly one option is correct and it is the key.
+Respond only with JSON: {"correct_options": [numbers], "key_correct": true/false, "valid": true/false}
+
+
+A / solve
+
+Question (Korean): {question}
+
+Answer the question. Reply with only the option number. If no option is correct, reply NONE. If more than one option is correct, reply MULTIPLE.
+
+
+A / binary
+
+You are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer: Option {key}
+
+Is this item valid, meaning the question is unambiguous, the proposed answer is strictly correct, and no other answer is also correct? Answer with exactly one word: true or false.
+
+
+A / native_verifier
+
+ You should first think about the reasoning process in the mind and then provide the user with the answer. The reasoning process is enclosed within <think> </think> tags, i.e. <think> reasoning process here </think> answer hereYou are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer: Option {key}
+
+Please carefully analyze the images and determine whether the item is valid: the question is unambiguous, the proposed answer is strictly correct, and no other answer is also correct. If the item is valid, please answer 'true'; otherwise, answer 'false'.
+Respond strictly in the following JSON format: {"answer": true/false, "explanation": "If the answer is false, briefly summarize the main error."}
+
+
+A / per_option
+
+Question (Korean): {question}
+
+Consider only Option {option_index}. Does Option {option_index} correctly answer the question? Answer with exactly one word: yes or no.
+
+
+B / holistic
+
+You are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer: {key}
+
+Compare the panels carefully. List the objects that changed in the way the question asks about. Then say whether the proposed answer is correct and complete, and whether the item is valid, meaning the panels contain exactly the change(s) the question asks for and the proposed answer names them.
+Respond only with JSON: {"changed_objects": ["names in Korean"], "answer_correct": true/false, "valid": true/false}
+
+
+B / solve
+
+Question (Korean): {question}
+
+Answer the question in Korean with only the object name(s). If nothing changed in the way the question asks, reply NONE. If more objects changed in that way than the question asks for, reply MULTIPLE.
+
+
+B / binary
+
+You are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer: {key}
+
+Is this item valid, meaning the question is unambiguous, the proposed answer is strictly correct, and no other answer is also correct? Answer with exactly one word: true or false.
+
+
+B / native_verifier
+
+ You should first think about the reasoning process in the mind and then provide the user with the answer. The reasoning process is enclosed within <think> </think> tags, i.e. <think> reasoning process here </think> answer hereYou are reviewing a visual test item before it is given to an older adult. The images above are exactly what the test-taker sees. Question (Korean): {question}
+Proposed answer: {key}
+
+Please carefully analyze the images and determine whether the item is valid: the question is unambiguous, the proposed answer is strictly correct, and no other answer is also correct. If the item is valid, please answer 'true'; otherwise, answer 'false'.
+Respond strictly in the following JSON format: {"answer": true/false, "explanation": "If the answer is false, briefly summarize the main error."}

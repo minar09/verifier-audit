@@ -1,0 +1,66 @@
+{
+  "model_snapshot": "Qwen/Qwen3-VL-2B-Instruct@89644892e4d85e24eaac8bacfd4f463576704203",
+  "scope": "Reconstructed answer-token exposure incl. im_end; not input tokens or wall-clock throughput",
+  "runs": {
+    "v3_structured_s0": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 348506,
+      "mean_supervised_tokens": 19.801477272727272,
+      "held_asset_decoded_retokenized_mean": 18.906586826347304,
+      "held_asset_decoded_retokenized_p95": 24.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    },
+    "v3_structured_s1": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 348484,
+      "mean_supervised_tokens": 19.800227272727273,
+      "held_asset_decoded_retokenized_mean": 18.935728542914173,
+      "held_asset_decoded_retokenized_p95": 24.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    },
+    "v3_structured_s2": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 348679,
+      "mean_supervised_tokens": 19.81130681818182,
+      "held_asset_decoded_retokenized_mean": 18.85868263473054,
+      "held_asset_decoded_retokenized_p95": 24.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    },
+    "v3_describe_s0": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 1392051,
+      "mean_supervised_tokens": 79.09380681818182,
+      "held_asset_decoded_retokenized_mean": 78.0379241516966,
+      "held_asset_decoded_retokenized_p95": 169.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    },
+    "v3_describe_s1": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 1391851,
+      "mean_supervised_tokens": 79.08244318181818,
+      "held_asset_decoded_retokenized_mean": 78.32654690618763,
+      "held_asset_decoded_retokenized_p95": 169.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    },
+    "v3_describe_s2": {
+      "adapter_parameters": 17432576,
+      "training_examples_seen": 17600,
+      "supervised_tokens": 1395254,
+      "mean_supervised_tokens": 79.27579545454546,
+      "held_asset_decoded_retokenized_mean": 78.11457085828343,
+      "held_asset_decoded_retokenized_p95": 169.0,
+      "note": "Retokenized decoded output is a length diagnostic, not an exact generation-token or truncation count."
+    }
+  },
+  "inputs_sha256": {
+    "data/procgen_v3/train/instances.jsonl": "1d2d31dea0dc1869d6a326abf8876bc5dc93d3671cba8cffaee244990bca84d5",
+    "data/procgen_v3/train/describe.json": "11e47630a6174709c899f9526402704d9de10a019c622272c6e849ff9550701a",
+    "t1/train.py": "839e85d43d1ea8280e48a148790b8a0f45fb0749f9ea4f5d8e5a7e9f219e69de",
+    "t1/describe.py": "cc0245b922469af5c64abdcebfb16415e7808494ff240a9c80f2ba7c143f4934"
+  }
+}
