@@ -1,0 +1,42 @@
+{
+  "version": "english_audit_reviewer_a_descriptive_v1",
+  "source": "Hosted English audit, role a; only sealed complete records; pilot and reviewer b excluded",
+  "study_version": "english-audit-v1",
+  "accessed_utc": "2026-11-02 06:14:59 UTC",
+  "selection": "240 distinct bases; stratified by template and original oracle outcome; not a random population sample",
+  "reviewer_a": "sealed; no access to oracle labels was used in this summary",
+  "results": {
+    "n": 240,
+    "counts": {
+      "responseType": {
+        "selected": 205,
+        "none": 35
+      },
+      "keyCorrect": {
+        "no": 156,
+        "yes": 84
+      },
+      "validity": {
+        "invalid": 155,
+        "valid": 85
+      },
+      "wording": {
+        "clear": 223,
+        "unclear": 17
+      },
+      "visual": {
+        "yes": 233,
+        "no": 7
+      },
+      "zoom": {
+        "no": 240
+      }
+    }
+  },
+  "limitations": [
+    "Single reviewer only; no inter-rater statistics or comparison to the executable reference.",
+    "Retrospective, descriptive analysis of a stratified sample; proportions are not prevalence estimates.",
+    "No matching to hidden reference labels or adjudication performed while reviewer b remains unsealed.",
+    "Clarity and visibility are subjective categorical reports; not a psychophysical or clinical test."
+  ]
+}

@@ -1,0 +1,215 @@
+{
+ "size": 768,
+ "diff_level": 40,
+ "n_scenes": 102,
+ "n_same": 474,
+ "n_different": 626,
+ "max_same": 0.0,
+ "min_different": 0.0005560980902777778,
+ "separated": true,
+ "same_frac": 2.3581732130566187e-05,
+ "margin_ratio": 556.0980902777778,
+ "by_op": {
+  "different:mirror_arrow": {
+   "n": 12,
+   "min": 0.0035536024305555555,
+   "max": 0.06346638997395833
+  },
+  "different:mirror_asym": {
+   "n": 7,
+   "min": 0.007876925998263888,
+   "max": 0.13017103407118055
+  },
+  "different:mirror_elbow": {
+   "n": 11,
+   "min": 0.010430230034722222,
+   "max": 0.3574761284722222
+  },
+  "different:mirror_quarter_circle": {
+   "n": 2,
+   "min": 0.008538140190972222,
+   "max": 0.1378241644965278
+  },
+  "different:move_cell": {
+   "n": 116,
+   "min": 0.0015326605902777778,
+   "max": 0.17472669813368055
+  },
+  "different:recolor_near": {
+   "n": 223,
+   "min": 0.001125759548611111,
+   "max": 0.3301595052083333
+  },
+  "different:rescale_1.25": {
+   "n": 223,
+   "min": 0.0005560980902777778,
+   "max": 0.250244140625
+  },
+  "different:rotate90_arrow": {
+   "n": 12,
+   "min": 0.008765326605902778,
+   "max": 0.1456722683376736
+  },
+  "different:rotate90_asym": {
+   "n": 7,
+   "min": 0.010918511284722222,
+   "max": 0.18141004774305555
+  },
+  "different:rotate90_elbow": {
+   "n": 11,
+   "min": 0.010430230034722222,
+   "max": 0.3574761284722222
+  },
+  "different:rotate90_quarter_circle": {
+   "n": 2,
+   "min": 0.008538140190972222,
+   "max": 0.13782246907552084
+  },
+  "same:mirror_sym_circle": {
+   "n": 24,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_cross": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_diamond": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_dot": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_ellipse": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_heart": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_hexagon": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_line": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_pentagon": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_rect": {
+   "n": 6,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_semicircle": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_square": {
+   "n": 7,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_star": {
+   "n": 10,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:mirror_sym_triangle": {
+   "n": 26,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:recolor_same": {
+   "n": 162,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_circle": {
+   "n": 96,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_cross": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_diamond": {
+   "n": 4,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_dot": {
+   "n": 6,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_ellipse": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_hexagon": {
+   "n": 6,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_line": {
+   "n": 2,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_pentagon": {
+   "n": 4,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_rect": {
+   "n": 6,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_square": {
+   "n": 21,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_star": {
+   "n": 20,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "same:rotate_sym_triangle": {
+   "n": 52,
+   "min": 0.0,
+   "max": 0.0
+  },
+  "uncertain:asset_mirror": {
+   "n": 100,
+   "min": 0.0,
+   "max": 0.006072998046875
+  },
+  "uncertain:asset_rotate90": {
+   "n": 100,
+   "min": 0.0008290608723958334,
+   "max": 0.016169230143229168
+  }
+ },
+ "uncertain_asset_ops_below_threshold": 13
+}

@@ -1,0 +1,53 @@
+{
+  "protocol": "exploratory_v1",
+  "seed": 20261023,
+  "n": 2793,
+  "groups": 399,
+  "confirmation_pairs_evaluated": 0,
+  "population_sha256": "966b09aeca7bafa28a2e859761dc0615b8cd160a629bcd98b4b449b1a19274be",
+  "threshold": 0.5,
+  "tuning": "Fixed C=1 and feature limits; no hyperparameter selection on OOF outcomes.",
+  "input": "Question/options text, proposed key, visible image labels. No pixels, paths, source IDs, task IDs, operations or correctness metadata.",
+  "methods": {
+    "word": {
+      "invalid_recall": 0.8208020050125313,
+      "invalid_precision": 0.589824403421882,
+      "valid_retention": 0.23893065998329155,
+      "accuracy": 0.5714285714285714,
+      "n": 2793,
+      "accuracy_ci95_source_bootstrap": [
+        0.5714285714285714,
+        0.5714285714285714
+      ]
+    },
+    "char": {
+      "invalid_recall": 0.8677944862155389,
+      "invalid_precision": 0.5831578947368421,
+      "valid_retention": 0.17293233082706766,
+      "accuracy": 0.5699964196204798,
+      "n": 2793,
+      "accuracy_ci95_source_bootstrap": [
+        0.5674901539563194,
+        0.5725026852846402
+      ]
+    },
+    "combined": {
+      "invalid_recall": 0.7976190476190477,
+      "invalid_precision": 0.5931966449207828,
+      "valid_retention": 0.2706766917293233,
+      "accuracy": 0.5717866093805943,
+      "n": 2793,
+      "accuracy_ci95_source_bootstrap": [
+        0.5685642678123881,
+        0.5750089509488006
+      ]
+    },
+    "always_invalid": {
+      "invalid_recall": 1.0,
+      "invalid_precision": 0.5714285714285714,
+      "valid_retention": 0.0,
+      "accuracy": 0.5714285714285714,
+      "n": 2793
+    }
+  }
+}

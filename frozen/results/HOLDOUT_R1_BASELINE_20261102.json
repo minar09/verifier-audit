@@ -1,0 +1,38 @@
+{
+ "protocol_sha256": "c0f7b8461ed4af1a0b3e0e4776b14a1688ca3597a999264846f79bab356f0d72",
+ "implementation_sha256": "a35285e1a8d2ec5ff9884cdb3ae6b6105fe606171a0735700376cdea3b7e7874",
+ "rules_sha256": "69428bb18c4436569decc7b85e2cf2bdbc6e2323393db7822a0235e72a1b1d6d",
+ "itemgen_wheel_sha256": "4693a96ba11a910f86a33d8abd682133473b8dc4267f705e9dfdda110bc0266a",
+ "splits": {
+  "test_id": {
+   "input_sha256": "2aae5cd43117a53ab822996c9923c090bc9be537e76151de62af038c521f0cc4",
+   "n_groups": 239,
+   "item_inputs_sha256": "bd6cfd8e34a10a7f2b522be34b545734588fca7e910abb9d730d5d6974af1e1d",
+   "display_key_overrides": 1,
+   "predictions_sha256": "dd9048f401977a0a643d0b1095881bbf913f397856ba7ee5451a55ef0600fc3b",
+   "metrics": {
+    "invalid_recall": 0.5781569965870307,
+    "invalid_precision": 0.8538306451612904,
+    "valid_retention": 0.8605769230769231,
+    "accuracy": 0.6954091816367265,
+    "n": 2505,
+    "balanced_accuracy": 0.719366959831977
+   }
+  },
+  "test_ood": {
+   "input_sha256": "58063733c858ce1ff4cba9fdc7b49682388a4750c12323f1f2a305f1e3cdb578",
+   "n_groups": 200,
+   "item_inputs_sha256": "3f70e10bf011882f08915e8eb8d8b3ecd3543112bb34f86e637ef0933fde7820",
+   "display_key_overrides": 0,
+   "predictions_sha256": "1fc035bf73e7e1ce6daa3834bbc12edcbf4af4a31dc5274c49cd1e379ffb1cc2",
+   "metrics": {
+    "invalid_recall": 0.5454545454545454,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.7214484679665738,
+    "n": 1795,
+    "balanced_accuracy": 0.7727272727272727
+   }
+  }
+ }
+}

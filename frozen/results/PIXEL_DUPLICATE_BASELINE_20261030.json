@@ -1,0 +1,110 @@
+{
+ "method": "Exact decoded-RGB duplicate of keyed option; no question or scene specification access",
+ "limitations": [
+  "Partial detector: distinct wrong keys, missing answers, change-detection and near-duplicates are not detected.",
+  "A duplicate of a wrong keyed option need not imply invalidity; false positives are possible.",
+  "Identical decoded pixels are not a human perceptual equivalence test."
+ ],
+ "splits": {
+  "test_id": {
+   "source_sha256": "2aae5cd43117a53ab822996c9923c090bc9be537e76151de62af038c521f0cc4",
+   "all_items": {
+    "invalid_recall": 0.28532423208191127,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.5820359281437125,
+    "n": 2505,
+    "balanced_accuracy": 0.6426621160409556
+   },
+   "choice_items_only": {
+    "invalid_recall": 0.4134520276953511,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.678938819707634,
+    "n": 1847,
+    "balanced_accuracy": 0.7067260138476755
+   },
+   "by_defect_choice": {
+    "key_mismatch": {
+     "invalid_recall": 0.0,
+     "invalid_precision": null,
+     "valid_retention": null,
+     "accuracy": 0.0,
+     "n": 373
+    },
+    "multi_correct": {
+     "invalid_recall": 0.9122807017543859,
+     "invalid_precision": 1.0,
+     "valid_retention": null,
+     "accuracy": 0.9122807017543859,
+     "n": 456
+    },
+    "no_correct": {
+     "invalid_recall": 0.01098901098901099,
+     "invalid_precision": 1.0,
+     "valid_retention": null,
+     "accuracy": 0.01098901098901099,
+     "n": 182
+    },
+    "none": {
+     "invalid_recall": null,
+     "invalid_precision": null,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 836
+    }
+   },
+   "source_groups": 239
+  },
+  "test_ood": {
+   "source_sha256": "58063733c858ce1ff4cba9fdc7b49682388a4750c12323f1f2a305f1e3cdb578",
+   "all_items": {
+    "invalid_recall": 0.2727272727272727,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.5543175487465181,
+    "n": 1795,
+    "balanced_accuracy": 0.6363636363636364
+   },
+   "choice_items_only": {
+    "invalid_recall": 0.5,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.726027397260274,
+    "n": 1095,
+    "balanced_accuracy": 0.75
+   },
+   "by_defect_choice": {
+    "key_mismatch": {
+     "invalid_recall": 0.0,
+     "invalid_precision": null,
+     "valid_retention": null,
+     "accuracy": 0.0,
+     "n": 200
+    },
+    "multi_correct": {
+     "invalid_recall": 1.0,
+     "invalid_precision": 1.0,
+     "valid_retention": null,
+     "accuracy": 1.0,
+     "n": 300
+    },
+    "no_correct": {
+     "invalid_recall": 0.0,
+     "invalid_precision": null,
+     "valid_retention": null,
+     "accuracy": 0.0,
+     "n": 100
+    },
+    "none": {
+     "invalid_recall": null,
+     "invalid_precision": null,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 495
+    }
+   },
+   "source_groups": 200
+  }
+ }
+}

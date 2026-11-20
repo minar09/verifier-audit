@@ -1,0 +1,357 @@
+{
+ "protocol_sha256": "98f702611baafb212cf3937e69a66f7970d19ecdafd3ff2cf1b701705865301d",
+ "code_sha256": "d0453cc8749ac95d8bd9378dc288eee33016e34afacae8315aa1065cf25cbf9b",
+ "splits": {
+  "test_id": {
+   "source_sha256": "2aae5cd43117a53ab822996c9923c090bc9be537e76151de62af038c521f0cc4",
+   "english_sha256": "4086335aa4233caef2efb69bad898dace73350a9b87bf390462f97607d317870",
+   "coverage": 0.2782435129740519,
+   "supported": {
+    "invalid_recall": 1.0,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 1.0,
+    "n": 697,
+    "balanced_accuracy": 1.0
+   },
+   "all_fallback_valid": {
+    "invalid_recall": 0.26621160409556316,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.5708582834331337,
+    "n": 2505,
+    "balanced_accuracy": 0.6331058020477816
+   },
+   "by_operation": {
+    "identity": {
+     "invalid_recall": 1.0,
+     "invalid_precision": 1.0,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 220,
+     "balanced_accuracy": 1.0
+    },
+    "mirror": {
+     "invalid_recall": 1.0,
+     "invalid_precision": 1.0,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 198,
+     "balanced_accuracy": 1.0
+    },
+    "rotation": {
+     "invalid_recall": 1.0,
+     "invalid_precision": 1.0,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 279,
+     "balanced_accuracy": 1.0
+    }
+   },
+   "english_model_comparators": {
+    "qwen3vl2b": {
+     "sha256": "bfe94799cb5dd23ecfdae855228e9174bdd882e320060b24c5a359c83e87accf",
+     "supported": {
+      "invalid_recall": 0.4897435897435897,
+      "invalid_precision": 0.6387959866220736,
+      "valid_retention": 0.6482084690553745,
+      "accuracy": 0.5595408895265424,
+      "n": 697,
+      "balanced_accuracy": 0.5689760293994821
+     }
+    },
+    "omniverifier7b": {
+     "sha256": "2d2bb0cf866b49046efcbbfd8bcad88844d45a2a9b0fcb1b17d597f4f91cc622",
+     "supported": {
+      "invalid_recall": 0.8282051282051283,
+      "invalid_precision": 0.6320939334637965,
+      "valid_retention": 0.38762214983713356,
+      "accuracy": 0.6341463414634146,
+      "n": 697,
+      "balanced_accuracy": 0.6079136390211309
+     }
+    },
+    "v3_structured_s0": {
+     "sha256": "b39c4b7a0d634b8f71ff02cb4afca4b26fde6c8e5f3dee0617632f81fec2ce8e",
+     "supported": {
+      "invalid_recall": 0.8384615384615385,
+      "invalid_precision": 0.9289772727272727,
+      "valid_retention": 0.9185667752442996,
+      "accuracy": 0.8737446197991392,
+      "n": 697,
+      "balanced_accuracy": 0.8785141568529191
+     }
+    },
+    "v3_structured_s1": {
+     "sha256": "a1a83e65733a28e5edc644c2d03fed96026fc29fd01eb4871771aae0e24181ec",
+     "supported": {
+      "invalid_recall": 0.8205128205128205,
+      "invalid_precision": 0.9116809116809117,
+      "valid_retention": 0.8990228013029316,
+      "accuracy": 0.8550932568149211,
+      "n": 697,
+      "balanced_accuracy": 0.859767810907876
+     }
+    },
+    "v3_structured_s2": {
+     "sha256": "5461730847b47dc39f46638383fd1590812e556f5696956d7efa4ba9c73943bd",
+     "supported": {
+      "invalid_recall": 0.8025641025641026,
+      "invalid_precision": 0.9660493827160493,
+      "valid_retention": 0.9641693811074918,
+      "accuracy": 0.8737446197991392,
+      "n": 697,
+      "balanced_accuracy": 0.8833667418357972
+     }
+    },
+    "v3_structured_s3": {
+     "sha256": "4cb3d7db7cffb54ca88e376ec316e84b705abdecc129d4a08f6c17244af93f5e",
+     "supported": {
+      "invalid_recall": 0.8051282051282052,
+      "invalid_precision": 0.9843260188087775,
+      "valid_retention": 0.9837133550488599,
+      "accuracy": 0.8837876614060258,
+      "n": 697,
+      "balanced_accuracy": 0.8944207800885325
+     }
+    },
+    "v3_structured_s4": {
+     "sha256": "0a54df453f6a884de291249ef6eaefb433d60636db7b3cc344c94a1767f396db",
+     "supported": {
+      "invalid_recall": 0.8333333333333334,
+      "invalid_precision": 0.9530791788856305,
+      "valid_retention": 0.9478827361563518,
+      "accuracy": 0.8837876614060258,
+      "n": 697,
+      "balanced_accuracy": 0.8906080347448426
+     }
+    },
+    "v3_describe_s0": {
+     "sha256": "340150135a0b94d33c1780b267cf929ebf57a7056681ddd5727f68bd0e278521",
+     "supported": {
+      "invalid_recall": 0.9666666666666667,
+      "invalid_precision": 0.9568527918781726,
+      "valid_retention": 0.9446254071661238,
+      "accuracy": 0.9569583931133429,
+      "n": 697,
+      "balanced_accuracy": 0.9556460369163953
+     }
+    },
+    "v3_describe_s1": {
+     "sha256": "cdece50a9fbbbe2d53fc70c0fb4f2ad265ae90d184123b424034fa57d213f21e",
+     "supported": {
+      "invalid_recall": 0.9717948717948718,
+      "invalid_precision": 0.9199029126213593,
+      "valid_retention": 0.8925081433224755,
+      "accuracy": 0.9368723098995696,
+      "n": 697,
+      "balanced_accuracy": 0.9321515075586737
+     }
+    },
+    "v3_describe_s2": {
+     "sha256": "337e0bc2308c2753e60e04fe68583aec3476d3b2b6311314d2fdb8d38ec0f874",
+     "supported": {
+      "invalid_recall": 0.982051282051282,
+      "invalid_precision": 0.9598997493734336,
+      "valid_retention": 0.9478827361563518,
+      "accuracy": 0.9670014347202296,
+      "n": 697,
+      "balanced_accuracy": 0.9649670091038169
+     }
+    },
+    "v3_describe_s3": {
+     "sha256": "34712f34d5f160821cd567481b91b02ad5de628595eb90c940a6a0810d277144",
+     "supported": {
+      "invalid_recall": 0.9641025641025641,
+      "invalid_precision": 0.9715762273901809,
+      "valid_retention": 0.9641693811074918,
+      "accuracy": 0.9641319942611191,
+      "n": 697,
+      "balanced_accuracy": 0.964135972605028
+     }
+    },
+    "v3_describe_s4": {
+     "sha256": "47cb3b3b76cd1938582f8e47a86e6a2bc449afa82d529137ed35b1c267b7094a",
+     "supported": {
+      "invalid_recall": 0.9615384615384616,
+      "invalid_precision": 0.9541984732824428,
+      "valid_retention": 0.9413680781758957,
+      "accuracy": 0.9526542324246772,
+      "n": 697,
+      "balanced_accuracy": 0.9514532698571787
+     }
+    }
+   }
+  },
+  "test_ood": {
+   "source_sha256": "58063733c858ce1ff4cba9fdc7b49682388a4750c12323f1f2a305f1e3cdb578",
+   "english_sha256": "343d8daf9393232cf28a3cd50bec7dfb515af1e21a6805bff518e77414f6b75c",
+   "coverage": 0.6100278551532033,
+   "supported": {
+    "invalid_recall": 1.0,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 1.0,
+    "n": 1095,
+    "balanced_accuracy": 1.0
+   },
+   "all_fallback_valid": {
+    "invalid_recall": 0.5454545454545454,
+    "invalid_precision": 1.0,
+    "valid_retention": 1.0,
+    "accuracy": 0.7214484679665738,
+    "n": 1795,
+    "balanced_accuracy": 0.7727272727272727
+   },
+   "by_operation": {
+    "rotation_only": {
+     "invalid_recall": 1.0,
+     "invalid_precision": 1.0,
+     "valid_retention": 1.0,
+     "accuracy": 1.0,
+     "n": 1095,
+     "balanced_accuracy": 1.0
+    }
+   },
+   "english_model_comparators": {
+    "qwen3vl2b": {
+     "sha256": "22732c7aa3bc77dda34768640bf5aa9c3ff0f564581f21746e55c1db3b5bc764",
+     "supported": {
+      "invalid_recall": 0.115,
+      "invalid_precision": 0.7752808988764045,
+      "valid_retention": 0.9595959595959596,
+      "accuracy": 0.4968036529680365,
+      "n": 1095,
+      "balanced_accuracy": 0.5372979797979798
+     }
+    },
+    "omniverifier7b": {
+     "sha256": "ea57d592ca18a3505924e103a44a5436d0de9820f5c8d7e2fe881e2c9f91edec",
+     "supported": {
+      "invalid_recall": 0.87,
+      "invalid_precision": 0.5553191489361702,
+      "valid_retention": 0.15555555555555556,
+      "accuracy": 0.5470319634703197,
+      "n": 1095,
+      "balanced_accuracy": 0.5127777777777778
+     }
+    },
+    "v3_structured_s0": {
+     "sha256": "80a2f44588bc7521842923243f5838bd2722ea446a739f83ae3960e6b44072ed",
+     "supported": {
+      "invalid_recall": 0.87,
+      "invalid_precision": 0.7510791366906475,
+      "valid_retention": 0.6505050505050505,
+      "accuracy": 0.7707762557077625,
+      "n": 1095,
+      "balanced_accuracy": 0.7602525252525252
+     }
+    },
+    "v3_structured_s1": {
+     "sha256": "359399fe40567a7b670a1b1cad92bbaa8032ea9474ec7a429146b33d3b346527",
+     "supported": {
+      "invalid_recall": 0.8466666666666667,
+      "invalid_precision": 0.7803379416282642,
+      "valid_retention": 0.7111111111111111,
+      "accuracy": 0.7853881278538812,
+      "n": 1095,
+      "balanced_accuracy": 0.778888888888889
+     }
+    },
+    "v3_structured_s2": {
+     "sha256": "8bfd2ca4aaef20fb5521ee5ef0dc8daacd618e0d26e9910897e55fd460b8f1c8",
+     "supported": {
+      "invalid_recall": 0.8583333333333333,
+      "invalid_precision": 0.748546511627907,
+      "valid_retention": 0.6505050505050505,
+      "accuracy": 0.7643835616438356,
+      "n": 1095,
+      "balanced_accuracy": 0.7544191919191918
+     }
+    },
+    "v3_structured_s3": {
+     "sha256": "99471b84d474aa1c2b58b4aed6b2d95b49e935c9e9e38aefb412f5b24c331305",
+     "supported": {
+      "invalid_recall": 0.8533333333333334,
+      "invalid_precision": 0.7377521613832853,
+      "valid_retention": 0.6323232323232323,
+      "accuracy": 0.7534246575342466,
+      "n": 1095,
+      "balanced_accuracy": 0.7428282828282828
+     }
+    },
+    "v3_structured_s4": {
+     "sha256": "fdca10087c17572581fefd4c917330437c9568a9ba5fa5bb3c452dae8d071c46",
+     "supported": {
+      "invalid_recall": 0.8666666666666667,
+      "invalid_precision": 0.6824146981627297,
+      "valid_retention": 0.5111111111111111,
+      "accuracy": 0.7059360730593607,
+      "n": 1095,
+      "balanced_accuracy": 0.6888888888888889
+     }
+    },
+    "v3_describe_s0": {
+     "sha256": "cecf016bc2409525db3dbc16783b8841788f4b446e66db57a0c2ba2d3f017828",
+     "supported": {
+      "invalid_recall": 0.9516666666666667,
+      "invalid_precision": 0.6133190118152524,
+      "valid_retention": 0.2727272727272727,
+      "accuracy": 0.6447488584474886,
+      "n": 1095,
+      "balanced_accuracy": 0.6121969696969697
+     }
+    },
+    "v3_describe_s1": {
+     "sha256": "da98d9b54fde2a7685a36b45a1029c8f6457be937853de8b2828a6992b7ca3ca",
+     "supported": {
+      "invalid_recall": 0.9266666666666666,
+      "invalid_precision": 0.601081081081081,
+      "valid_retention": 0.2545454545454545,
+      "accuracy": 0.6228310502283105,
+      "n": 1095,
+      "balanced_accuracy": 0.5906060606060606
+     }
+    },
+    "v3_describe_s2": {
+     "sha256": "4f1e4ed0fc5428b1d5d1602cd032e3ffad5a282f5f29ce1d41090c726627fd29",
+     "supported": {
+      "invalid_recall": 0.9733333333333334,
+      "invalid_precision": 0.6927639383155397,
+      "valid_retention": 0.4767676767676768,
+      "accuracy": 0.7488584474885844,
+      "n": 1095,
+      "balanced_accuracy": 0.7250505050505051
+     }
+    },
+    "v3_describe_s3": {
+     "sha256": "19260f416b8248d71fce2928a52903ec2a967db8560f7e15e646d785dde71754",
+     "supported": {
+      "invalid_recall": 0.9266666666666666,
+      "invalid_precision": 0.6881188118811881,
+      "valid_retention": 0.4909090909090909,
+      "accuracy": 0.7296803652968037,
+      "n": 1095,
+      "balanced_accuracy": 0.7087878787878787
+     }
+    },
+    "v3_describe_s4": {
+     "sha256": "4c7eae14f9aba8b5a3182a519fbd49b523bf6d224cf14902e46b843069af273a",
+     "supported": {
+      "invalid_recall": 0.935,
+      "invalid_precision": 0.6759036144578313,
+      "valid_retention": 0.45656565656565656,
+      "accuracy": 0.7187214611872146,
+      "n": 1095,
+      "balanced_accuracy": 0.6957828282828283
+     }
+    }
+   }
+  }
+ },
+ "limitations": [
+  "Exploratory; source holdouts previously inspected.",
+  "Draft English questions; transform-only coverage; uncalibrated transformed-panel threshold.",
+  "Not a scene-specification reader or an independent human reference."
+ ]
+}

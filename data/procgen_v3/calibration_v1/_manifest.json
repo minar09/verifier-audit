@@ -1,0 +1,8 @@
+{
+ "selection_seed": 20261022,
+ "n": 300,
+ "rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+ "excludes_checkpoint_selection_item_ids": true,
+ "shares_procedural_dev_groups_with_checkpoint_selection": true,
+ "policy": "Development calibration only; no external evaluation labels used"
+}

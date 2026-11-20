@@ -1,0 +1,30 @@
+{
+ "oracle_size": 448,
+ "same_frac": 2.175623737680572e-05,
+ "sets": {
+  "natural_pilot": {
+   "n": 176,
+   "label_changes": 0,
+   "valid_flips": 0,
+   "transitions": {},
+   "examples": []
+  },
+  "procgen_v3:test_id": {
+   "n": 2505,
+   "label_changes": 0,
+   "valid_flips": 0,
+   "transitions": {},
+   "examples": []
+  },
+  "procgen_v3:test_ood": {
+   "n": 1795,
+   "label_changes": 0,
+   "valid_flips": 0,
+   "transitions": {},
+   "examples": []
+  }
+ },
+ "audit_version": 2,
+ "canonical_input_ids": true,
+ "uses_displayed_row_key": true
+}

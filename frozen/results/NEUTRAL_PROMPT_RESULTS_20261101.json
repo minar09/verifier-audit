@@ -1,0 +1,714 @@
+{
+ "protocol_sha256": "9d450d546b31ab430b37a4e20c4a30b4c0b78d3eabd874a1b4589283b7ec7c8c",
+ "complete": true,
+ "rows": {
+  "muir": {
+   "qwen3vl2b_base": {
+    "neutral": {
+     "invalid_recall": 0.3026315789473684,
+     "invalid_precision": 0.6736401673640168,
+     "valid_retention": 0.8045112781954887,
+     "accuracy": 0.5177228786251342,
+     "n": 2793,
+     "balanced_accuracy": 0.5535714285714286
+    },
+    "original": {
+     "invalid_recall": 0.32894736842105265,
+     "invalid_precision": 0.6818181818181818,
+     "valid_retention": 0.7953216374269005,
+     "accuracy": 0.5288220551378446,
+     "n": 2793,
+     "balanced_accuracy": 0.5621345029239766
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.008563074352547995,
+     "ci95": [
+      -0.018901420217209752,
+      0.001984126984126977
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "omniverifier7b_base": {
+    "neutral": {
+     "invalid_recall": 0.7850877192982456,
+     "invalid_precision": 0.6762007555315704,
+     "valid_retention": 0.49874686716791977,
+     "accuracy": 0.6623702112423917,
+     "n": 2793,
+     "balanced_accuracy": 0.6419172932330827
+    },
+    "original": {
+     "invalid_recall": 0.7869674185463659,
+     "invalid_precision": 0.683723462166576,
+     "valid_retention": 0.5146198830409356,
+     "accuracy": 0.6702470461868958,
+     "n": 2793,
+     "balanced_accuracy": 0.6507936507936507
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.008876357560568038,
+     "ci95": [
+      -0.017961570593149515,
+      0.00010442773600660982
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s0": {
+    "neutral": {
+     "invalid_recall": 0.8364661654135338,
+     "invalid_precision": 0.656988188976378,
+     "valid_retention": 0.4177109440267335,
+     "accuracy": 0.656999641962048,
+     "n": 2793,
+     "balanced_accuracy": 0.6270885547201337
+    },
+    "original": {
+     "invalid_recall": 0.8327067669172933,
+     "invalid_precision": 0.6562962962962963,
+     "valid_retention": 0.41854636591478694,
+     "accuracy": 0.6552094522019334,
+     "n": 2793,
+     "balanced_accuracy": 0.6256265664160401
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.0014619883040936088,
+     "ci95": [
+      -0.005847953216374213,
+      0.00877192982456132
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s1": {
+    "neutral": {
+     "invalid_recall": 0.8214285714285714,
+     "invalid_precision": 0.654518222666001,
+     "valid_retention": 0.4218880534670008,
+     "accuracy": 0.6501969208736126,
+     "n": 2793,
+     "balanced_accuracy": 0.6216583124477861
+    },
+    "original": {
+     "invalid_recall": 0.8195488721804511,
+     "invalid_precision": 0.6520438683948155,
+     "valid_retention": 0.41687552213868,
+     "accuracy": 0.6469745793054064,
+     "n": 2793,
+     "balanced_accuracy": 0.6182121971595655
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.003446115288220586,
+     "ci95": [
+      -0.0031328320802005427,
+      0.010129490392648322
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s2": {
+    "neutral": {
+     "invalid_recall": 0.7807017543859649,
+     "invalid_precision": 0.6606574761399788,
+     "valid_retention": 0.4653299916457811,
+     "accuracy": 0.6455424274973147,
+     "n": 2793,
+     "balanced_accuracy": 0.623015873015873
+    },
+    "original": {
+     "invalid_recall": 0.7731829573934837,
+     "invalid_precision": 0.6602461209202782,
+     "valid_retention": 0.46950710108604843,
+     "accuracy": 0.6430361618331543,
+     "n": 2793,
+     "balanced_accuracy": 0.6213450292397661
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.001670843776106934,
+     "ci95": [
+      -0.005952380952380931,
+      0.009085213032581474
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s0": {
+    "neutral": {
+     "invalid_recall": 0.8283208020050126,
+     "invalid_precision": 0.6286257727056586,
+     "valid_retention": 0.34753550543024225,
+     "accuracy": 0.6222699606158253,
+     "n": 2793,
+     "balanced_accuracy": 0.5879281537176274
+    },
+    "original": {
+     "invalid_recall": 0.8395989974937343,
+     "invalid_precision": 0.6220984215413184,
+     "valid_retention": 0.31996658312447784,
+     "accuracy": 0.6168993913354816,
+     "n": 2793,
+     "balanced_accuracy": 0.5797827903091061
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.008145363408521344,
+     "ci95": [
+      -0.0064745196324144105,
+      0.022347535505430227
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s1": {
+    "neutral": {
+     "invalid_recall": 0.7731829573934837,
+     "invalid_precision": 0.62134944612286,
+     "valid_retention": 0.3717627401837928,
+     "accuracy": 0.6011457214464734,
+     "n": 2793,
+     "balanced_accuracy": 0.5724728487886382
+    },
+    "original": {
+     "invalid_recall": 0.7951127819548872,
+     "invalid_precision": 0.6304023845007451,
+     "valid_retention": 0.37844611528822053,
+     "accuracy": 0.6165413533834586,
+     "n": 2793,
+     "balanced_accuracy": 0.5867794486215538
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.0143065998329156,
+     "ci95": [
+      -0.028822055137844527,
+      -0.00010442773600671806
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s2": {
+    "neutral": {
+     "invalid_recall": 0.7769423558897243,
+     "invalid_precision": 0.6243705941591138,
+     "valid_retention": 0.3767752715121136,
+     "accuracy": 0.6054421768707483,
+     "n": 2793,
+     "balanced_accuracy": 0.576858813700919
+    },
+    "original": {
+     "invalid_recall": 0.7631578947368421,
+     "invalid_precision": 0.6083916083916084,
+     "valid_retention": 0.34502923976608185,
+     "accuracy": 0.5839598997493735,
+     "n": 2793,
+     "balanced_accuracy": 0.554093567251462
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.02276524644945699,
+     "ci95": [
+      0.009189640768588192,
+      0.03654970760233922
+     ],
+     "groups": 399,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   }
+  },
+  "dare": {
+   "qwen3vl2b_base": {
+    "neutral": {
+     "invalid_recall": 0.5345052083333334,
+     "invalid_precision": 0.8463917525773196,
+     "valid_retention": 0.8840466926070039,
+     "accuracy": 0.6937256292095002,
+     "n": 2821,
+     "balanced_accuracy": 0.7092759504701687
+    },
+    "original": {
+     "invalid_recall": 0.5240885416666666,
+     "invalid_precision": 0.8147773279352226,
+     "valid_retention": 0.8575875486381322,
+     "accuracy": 0.6760014179369018,
+     "n": 2821,
+     "balanced_accuracy": 0.6908380451523994
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.018437905317769232,
+     "ci95": [
+      0.005887036186226014,
+      0.031134523056444326
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "omniverifier7b_base": {
+    "neutral": {
+     "invalid_recall": 0.7571614583333334,
+     "invalid_precision": 0.7712201591511937,
+     "valid_retention": 0.7315175097276264,
+     "accuracy": 0.7454803261254874,
+     "n": 2821,
+     "balanced_accuracy": 0.7443394840304799
+    },
+    "original": {
+     "invalid_recall": 0.7291666666666666,
+     "invalid_precision": 0.7915194346289752,
+     "valid_retention": 0.7704280155642024,
+     "accuracy": 0.7479617157036512,
+     "n": 2821,
+     "balanced_accuracy": 0.7497973411154345
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.005457857084954609,
+     "ci95": [
+      -0.017529147087638006,
+      0.006565426974714249
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s0": {
+    "neutral": {
+     "invalid_recall": 0.7734375,
+     "invalid_precision": 0.7365158090514569,
+     "valid_retention": 0.669260700389105,
+     "accuracy": 0.7259836937256292,
+     "n": 2821,
+     "balanced_accuracy": 0.7213491001945525
+    },
+    "original": {
+     "invalid_recall": 0.7669270833333334,
+     "invalid_precision": 0.7169811320754716,
+     "valid_retention": 0.6381322957198443,
+     "accuracy": 0.7082594824530308,
+     "n": 2821,
+     "balanced_accuracy": 0.7025296895265889
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.018819410667963554,
+     "ci95": [
+      0.0089113321664327,
+      0.028707512070914085
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s1": {
+    "neutral": {
+     "invalid_recall": 0.7467447916666666,
+     "invalid_precision": 0.7667112299465241,
+     "valid_retention": 0.7284046692607004,
+     "accuracy": 0.7383906416164481,
+     "n": 2821,
+     "balanced_accuracy": 0.7375747304636835
+    },
+    "original": {
+     "invalid_recall": 0.7506510416666666,
+     "invalid_precision": 0.743391360412637,
+     "valid_retention": 0.690272373540856,
+     "accuracy": 0.7231478199220135,
+     "n": 2821,
+     "balanced_accuracy": 0.7204617076037614
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.01711302285992211,
+     "ci95": [
+      0.007430029157733381,
+      0.027165379368959776
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s2": {
+    "neutral": {
+     "invalid_recall": 0.72265625,
+     "invalid_precision": 0.7928571428571428,
+     "valid_retention": 0.77431906614786,
+     "accuracy": 0.7461892945763914,
+     "n": 2821,
+     "balanced_accuracy": 0.7484876580739299
+    },
+    "original": {
+     "invalid_recall": 0.728515625,
+     "invalid_precision": 0.77439446366782,
+     "valid_retention": 0.7463035019455253,
+     "accuracy": 0.7366182204891882,
+     "n": 2821,
+     "balanced_accuracy": 0.7374095634727627
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.011078094601167265,
+     "ci95": [
+      0.0028359937936538906,
+      0.019339520016251104
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s0": {
+    "neutral": {
+     "invalid_recall": 0.794921875,
+     "invalid_precision": 0.6783333333333333,
+     "valid_retention": 0.5494163424124514,
+     "accuracy": 0.6830911024459412,
+     "n": 2821,
+     "balanced_accuracy": 0.6721691087062257
+    },
+    "original": {
+     "invalid_recall": 0.7838541666666666,
+     "invalid_precision": 0.6707520891364902,
+     "valid_retention": 0.5400778210116731,
+     "accuracy": 0.6728110599078341,
+     "n": 2821,
+     "balanced_accuracy": 0.6619659938391699
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.01020311486705583,
+     "ci95": [
+      -0.004840807194313129,
+      0.024802877085708507
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s1": {
+    "neutral": {
+     "invalid_recall": 0.70703125,
+     "invalid_precision": 0.7006451612903226,
+     "valid_retention": 0.6389105058365758,
+     "accuracy": 0.6760014179369018,
+     "n": 2821,
+     "balanced_accuracy": 0.6729708779182879
+    },
+    "original": {
+     "invalid_recall": 0.7109375,
+     "invalid_precision": 0.6964285714285714,
+     "valid_retention": 0.6295719844357976,
+     "accuracy": 0.67387451258419,
+     "n": 2821,
+     "balanced_accuracy": 0.6702547422178988
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.0027161357003890885,
+     "ci95": [
+      -0.01287161521006532,
+      0.01859570269403079
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s2": {
+    "neutral": {
+     "invalid_recall": 0.705078125,
+     "invalid_precision": 0.6915708812260536,
+     "valid_retention": 0.624124513618677,
+     "accuracy": 0.6682027649769585,
+     "n": 2821,
+     "balanced_accuracy": 0.6646013193093385
+    },
+    "original": {
+     "invalid_recall": 0.736328125,
+     "invalid_precision": 0.691320293398533,
+     "valid_retention": 0.6070038910505836,
+     "accuracy": 0.6774193548387096,
+     "n": 2821,
+     "balanced_accuracy": 0.6716660080252919
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.007064688715953338,
+     "ci95": [
+      -0.02226924468496518,
+      0.007788821310269367
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   }
+  },
+  "mm_upd": {
+   "qwen3vl2b_base": {
+    "neutral": {
+     "invalid_recall": 0.4768211920529801,
+     "invalid_precision": 0.9451073985680191,
+     "valid_retention": 0.9476678043230944,
+     "accuracy": 0.639763779527559,
+     "n": 2540,
+     "balanced_accuracy": 0.7122444981880373
+    },
+    "original": {
+     "invalid_recall": 0.45815773630343165,
+     "invalid_precision": 0.938347718865598,
+     "valid_retention": 0.9431171786120591,
+     "accuracy": 0.6259842519685039,
+     "n": 2540,
+     "balanced_accuracy": 0.7006374574577454
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.01160704073029184,
+     "ci95": [
+      0.0008519089625156713,
+      0.022913886822649672
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "omniverifier7b_base": {
+    "neutral": {
+     "invalid_recall": 0.9566526189042746,
+     "invalid_precision": 0.9276123759486281,
+     "valid_retention": 0.8589306029579067,
+     "accuracy": 0.9228346456692913,
+     "n": 2540,
+     "balanced_accuracy": 0.9077916109310906
+    },
+    "original": {
+     "invalid_recall": 0.9440096327513546,
+     "invalid_precision": 0.9344457687723481,
+     "valid_retention": 0.8748577929465301,
+     "accuracy": 0.9200787401574804,
+     "n": 2540,
+     "balanced_accuracy": 0.9094337128489424
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.001642101917851746,
+     "ci95": [
+      -0.01427005207218501,
+      0.010652535765835039
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s0": {
+    "neutral": {
+     "invalid_recall": 0.8801926550270921,
+     "invalid_precision": 0.9420103092783505,
+     "valid_retention": 0.8976109215017065,
+     "accuracy": 0.8862204724409449,
+     "n": 2540,
+     "balanced_accuracy": 0.8889017882643993
+    },
+    "original": {
+     "invalid_recall": 0.8904274533413606,
+     "invalid_precision": 0.9384517766497462,
+     "valid_retention": 0.8896473265073948,
+     "accuracy": 0.8901574803149607,
+     "n": 2540,
+     "balanced_accuracy": 0.8900373899243776
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.0011356016599783914,
+     "ci95": [
+      -0.008117228518695823,
+      0.006200334016669304
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s1": {
+    "neutral": {
+     "invalid_recall": 0.8404575556893438,
+     "invalid_precision": 0.94006734006734,
+     "valid_retention": 0.8987485779294653,
+     "accuracy": 0.8606299212598425,
+     "n": 2540,
+     "balanced_accuracy": 0.8696030668094046
+    },
+    "original": {
+     "invalid_recall": 0.8452739313666466,
+     "invalid_precision": 0.9397590361445783,
+     "valid_retention": 0.8976109215017065,
+     "accuracy": 0.8633858267716535,
+     "n": 2540,
+     "balanced_accuracy": 0.8714424264341766
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.0018393596247719968,
+     "ci95": [
+      -0.009126379493685532,
+      0.005632547221601496
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_structured_s2": {
+    "neutral": {
+     "invalid_recall": 0.8416616496086695,
+     "invalid_precision": 0.9549180327868853,
+     "valid_retention": 0.9249146757679181,
+     "accuracy": 0.8704724409448819,
+     "n": 2540,
+     "balanced_accuracy": 0.8832881626882938
+    },
+    "original": {
+     "invalid_recall": 0.851896447922938,
+     "invalid_precision": 0.9528619528619529,
+     "valid_retention": 0.9203640500568828,
+     "accuracy": 0.8755905511811024,
+     "n": 2540,
+     "balanced_accuracy": 0.8861302489899103
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.002842086301616531,
+     "ci95": [
+      -0.010909151875786716,
+      0.005388911814071486
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s0": {
+    "neutral": {
+     "invalid_recall": 0.8789885611077664,
+     "invalid_precision": 0.8763505402160864,
+     "valid_retention": 0.7656427758816837,
+     "accuracy": 0.8397637795275591,
+     "n": 2540,
+     "balanced_accuracy": 0.822315668494725
+    },
+    "original": {
+     "invalid_recall": 0.8753762793497892,
+     "invalid_precision": 0.8796128251663642,
+     "valid_retention": 0.7736063708759955,
+     "accuracy": 0.8401574803149606,
+     "n": 2540,
+     "balanced_accuracy": 0.8244913251128924
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": -0.002175656618167321,
+     "ci95": [
+      -0.01732950873679659,
+      0.01261317906463146
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s1": {
+    "neutral": {
+     "invalid_recall": 0.7760385310054184,
+     "invalid_precision": 0.9083861874559549,
+     "valid_retention": 0.8521046643913538,
+     "accuracy": 0.8023622047244094,
+     "n": 2540,
+     "balanced_accuracy": 0.8140715976983861
+    },
+    "original": {
+     "invalid_recall": 0.7760385310054184,
+     "invalid_precision": 0.9007686932215234,
+     "valid_retention": 0.838452787258248,
+     "accuracy": 0.7976377952755905,
+     "n": 2540,
+     "balanced_accuracy": 0.8072456591318332
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.0068259385665528916,
+     "ci95": [
+      -0.01040182874541869,
+      0.024849981234350654
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   },
+   "v3_describe_s2": {
+    "neutral": {
+     "invalid_recall": 0.8151715833835039,
+     "invalid_precision": 0.8984737889847378,
+     "valid_retention": 0.825938566552901,
+     "accuracy": 0.8188976377952756,
+     "n": 2540,
+     "balanced_accuracy": 0.8205550749682025
+    },
+    "original": {
+     "invalid_recall": 0.8043347381095726,
+     "invalid_precision": 0.8954423592493298,
+     "valid_retention": 0.8225255972696246,
+     "accuracy": 0.8106299212598426,
+     "n": 2540,
+     "balanced_accuracy": 0.8134301676895985
+    },
+    "paired_neutral_minus_original": {
+     "delta_bacc": 0.007124907278603931,
+     "ci95": [
+      -0.008832494910924337,
+      0.02337776003597778
+     ],
+     "groups": 400,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    }
+   }
+  }
+ },
+ "missing": [],
+ "limits": [
+  "Exploratory analysis of previously viewed first-pass items; 901 Muir confirmation pairs remain sealed.",
+  "Intervals resample source groups conditional on fixed checkpoints, not training-seed variation.",
+  "The ablation changes two prompt phrases together and does not isolate their individual effects."
+ ]
+}

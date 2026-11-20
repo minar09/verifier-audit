@@ -1,0 +1,391 @@
+{
+  "complete": true,
+  "first_pass_pairs": 399,
+  "sealed_confirmation_pairs": 901,
+  "source_report_sha256": "5f9015225c302d2d4d83ada6ad94712b0f43185bdd779e0439c649019ca29517",
+  "methods": {
+    "qwen3vl2b_base": {
+      "accuracy": 0.5288220551378446,
+      "accuracy_ci95": [
+        0.514500537056928,
+        0.5431435732187612
+      ],
+      "balanced_accuracy": 0.5621345029239766,
+      "invalid_recall": 0.32894736842105265,
+      "invalid_precision": 0.6818181818181818,
+      "valid_retention": 0.7953216374269005,
+      "parse_fail": 0,
+      "native_accuracy": 0.5263157894736842,
+      "dev_calibrated": {
+        "status": "no_qualifying_dev_threshold",
+        "threshold": null,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "f2c4b259defc322092de913504359dfdfce3fefea901fac2de4e88e7b7f2f5b0"
+      }
+    },
+    "omniverifier7b_base": {
+      "accuracy": 0.6702470461868958,
+      "accuracy_ci95": [
+        0.6516290726817042,
+        0.6870748299319728
+      ],
+      "balanced_accuracy": 0.6507936507936507,
+      "invalid_recall": 0.7869674185463659,
+      "invalid_precision": 0.683723462166576,
+      "valid_retention": 0.5146198830409356,
+      "parse_fail": 6,
+      "native_accuracy": 0.5802005012531328,
+      "dev_calibrated": {
+        "threshold": 0.9706877693533897,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "82bef8030eedf12794c7ff45cd7fb2d598445d7729792afee2c635f273f0f2fb",
+        "calibration_flagged": 22,
+        "calibration_precision": 0.9090909090909091,
+        "calibration_recall": 0.11627906976744186,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.41478696741854637,
+        "invalid_precision": 0.7005291005291006,
+        "valid_retention": 0.7635756056808688,
+        "accuracy": 0.5642678123881132,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.3840852130325815,
+          0.44360902255639095
+        ],
+        "invalid_precision_ci95": [
+          0.6807415036045315,
+          0.7196969696969697
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "omniverifier7b_native": {
+      "accuracy": 0.6838524883637666,
+      "accuracy_ci95": [
+        0.6680988184747583,
+        0.7006802721088435
+      ],
+      "balanced_accuracy": 0.6402464494569757,
+      "invalid_recall": 0.9454887218045113,
+      "invalid_precision": 0.6546637744034707,
+      "valid_retention": 0.33500417710944025,
+      "parse_fail": 41,
+      "native_accuracy": 0.5802005012531328,
+      "dev_calibrated": {
+        "threshold": 0.9999999936511998,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "8d401d06c889c5a81f28e195e1824f42d2f2f4aed1b553c72fd501f2482bd240",
+        "calibration_flagged": 1,
+        "calibration_precision": 1.0,
+        "calibration_recall": 0.005813953488372093,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.07456140350877193,
+        "invalid_precision": 0.9444444444444444,
+        "valid_retention": 0.9941520467836257,
+        "accuracy": 0.46867167919799496,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.05889724310776942,
+          0.09022556390977443
+        ],
+        "invalid_precision_ci95": [
+          0.8943089430894309,
+          0.9841269841269841
+        ],
+        "test_precision_target_met": true
+      }
+    },
+    "qwen3vl8b_base": {
+      "accuracy": 0.5359828141783028,
+      "accuracy_ci95": [
+        0.5213032581453634,
+        0.5510204081632653
+      ],
+      "balanced_accuracy": 0.5805137844611529,
+      "invalid_recall": 0.26879699248120303,
+      "invalid_precision": 0.7688172043010753,
+      "valid_retention": 0.8922305764411027,
+      "parse_fail": 0,
+      "native_accuracy": 0.6215538847117794,
+      "dev_calibrated": {
+        "threshold": 0.5621764957904816,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "f6ed3f156b5dc02b5cb6000a4a4cda21c5c0c6a1ea0761d7a5724f7dc88017b0",
+        "calibration_flagged": 40,
+        "calibration_precision": 0.9,
+        "calibration_recall": 0.20930232558139536,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.26879699248120303,
+        "invalid_precision": 0.7688172043010753,
+        "valid_retention": 0.8922305764411027,
+        "accuracy": 0.5359828141783028,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.2387218045112782,
+          0.29699248120300753
+        ],
+        "invalid_precision_ci95": [
+          0.7336601307189542,
+          0.8018348623853211
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_describe_s0": {
+      "accuracy": 0.6168993913354816,
+      "accuracy_ci95": [
+        0.6015037593984962,
+        0.6322950232724669
+      ],
+      "balanced_accuracy": 0.5797827903091061,
+      "invalid_recall": 0.8395989974937343,
+      "invalid_precision": 0.6220984215413184,
+      "valid_retention": 0.31996658312447784,
+      "parse_fail": 99,
+      "native_accuracy": 0.5476190476190477,
+      "dev_calibrated": {
+        "threshold": 2.384185791015625e-07,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "f530bc6171a00a0bb14e5f642c2b28013d2301a6453acb4fdd8795b316dc680c",
+        "calibration_flagged": 179,
+        "calibration_precision": 0.9217877094972067,
+        "calibration_recall": 0.9593023255813954,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.8897243107769424,
+        "invalid_precision": 0.6147186147186147,
+        "valid_retention": 0.25647451963241436,
+        "accuracy": 0.6183315431435732,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.8703007518796992,
+          0.9078947368421053
+        ],
+        "invalid_precision_ci95": [
+          0.6057896977437207,
+          0.6239130434782608
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_structured_s0": {
+      "accuracy": 0.6552094522019334,
+      "accuracy_ci95": [
+        0.6380236305048335,
+        0.6723952738990333
+      ],
+      "balanced_accuracy": 0.6256265664160401,
+      "invalid_recall": 0.8327067669172933,
+      "invalid_precision": 0.6562962962962963,
+      "valid_retention": 0.41854636591478694,
+      "parse_fail": 0,
+      "native_accuracy": 0.5588972431077694,
+      "dev_calibrated": {
+        "threshold": 6.198883056640625e-06,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "197327104d8da68feea3f299033f77beb494ba6c249a18f21b5919d1e14e86fe",
+        "calibration_flagged": 174,
+        "calibration_precision": 0.9080459770114943,
+        "calibration_recall": 0.9186046511627907,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.8421052631578947,
+        "invalid_precision": 0.6521106259097526,
+        "valid_retention": 0.40100250626566414,
+        "accuracy": 0.6530612244897959,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.8214285714285714,
+          0.8627819548872181
+        ],
+        "invalid_precision_ci95": [
+          0.6395963479096588,
+          0.6647258612324114
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_describe_s1": {
+      "accuracy": 0.6165413533834586,
+      "accuracy_ci95": [
+        0.5997135696383816,
+        0.6337271750805585
+      ],
+      "balanced_accuracy": 0.5867794486215538,
+      "invalid_recall": 0.7951127819548872,
+      "invalid_precision": 0.6304023845007451,
+      "valid_retention": 0.37844611528822053,
+      "parse_fail": 95,
+      "native_accuracy": 0.5413533834586466,
+      "dev_calibrated": {
+        "threshold": 3.5762786865234375e-07,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "ab0473a9d3e7a6381054bf8423fe4efe3d25f99006f577e010f3bb37cd3d4ff5",
+        "calibration_flagged": 182,
+        "calibration_precision": 0.9175824175824175,
+        "calibration_recall": 0.9709302325581395,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.843358395989975,
+        "invalid_precision": 0.6269212855146716,
+        "valid_retention": 0.3308270676691729,
+        "accuracy": 0.6237021124239169,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.8239348370927319,
+          0.8627819548872181
+        ],
+        "invalid_precision_ci95": [
+          0.6155616942909761,
+          0.6381672177609825
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_structured_s1": {
+      "accuracy": 0.6469745793054064,
+      "accuracy_ci95": [
+        0.6294307196562836,
+        0.664876476906552
+      ],
+      "balanced_accuracy": 0.6182121971595655,
+      "invalid_recall": 0.8195488721804511,
+      "invalid_precision": 0.6520438683948155,
+      "valid_retention": 0.41687552213868,
+      "parse_fail": 0,
+      "native_accuracy": 0.5363408521303258,
+      "dev_calibrated": {
+        "threshold": 9.5367431640625e-07,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "23cf0b006d1581e04570c99e2a9c1ca970e7ee8739686f1e8e6d17be0fd524f0",
+        "calibration_flagged": 180,
+        "calibration_precision": 0.9,
+        "calibration_recall": 0.9418604651162791,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.8289473684210527,
+        "invalid_precision": 0.6488474742520843,
+        "valid_retention": 0.4018379281537176,
+        "accuracy": 0.6459004654493377,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.8070175438596491,
+          0.849624060150376
+        ],
+        "invalid_precision_ci95": [
+          0.6356626506024097,
+          0.661409561360276
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_describe_s2": {
+      "accuracy": 0.5839598997493735,
+      "accuracy_ci95": [
+        0.568922305764411,
+        0.5997135696383816
+      ],
+      "balanced_accuracy": 0.554093567251462,
+      "invalid_recall": 0.7631578947368421,
+      "invalid_precision": 0.6083916083916084,
+      "valid_retention": 0.34502923976608185,
+      "parse_fail": 241,
+      "native_accuracy": 0.5363408521303258,
+      "dev_calibrated": {
+        "threshold": 4.76837158203125e-07,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "64961668b8c1125d9ac76f50aad146455c980e40f4979b53caec9c753db6eb74",
+        "calibration_flagged": 184,
+        "calibration_precision": 0.907608695652174,
+        "calibration_recall": 0.9709302325581395,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.8427318295739349,
+        "invalid_precision": 0.6138749429484254,
+        "valid_retention": 0.2932330827067669,
+        "accuracy": 0.6072323666308629,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.818295739348371,
+          0.8640350877192983
+        ],
+        "invalid_precision_ci95": [
+          0.6038756196484903,
+          0.624484181568088
+        ],
+        "test_precision_target_met": false
+      }
+    },
+    "v3_structured_s2": {
+      "accuracy": 0.6430361618331543,
+      "accuracy_ci95": [
+        0.6247762262799856,
+        0.661296097386323
+      ],
+      "balanced_accuracy": 0.6213450292397661,
+      "invalid_recall": 0.7731829573934837,
+      "invalid_precision": 0.6602461209202782,
+      "valid_retention": 0.46950710108604843,
+      "parse_fail": 0,
+      "native_accuracy": 0.5664160401002506,
+      "dev_calibrated": {
+        "threshold": 6.198883056640625e-06,
+        "target_precision": 0.9,
+        "calibration_rows_sha256": "75952f0537b038e129369769909c677267dad41c69665fe43f52a721ac45d4aa",
+        "calibration_predictions_sha256": "f54be80131a3ce47d50543ad73fd3952f9b6e290beb403b6f3702dc3a3cf0131",
+        "calibration_flagged": 172,
+        "calibration_precision": 0.9186046511627907,
+        "calibration_recall": 0.9186046511627907,
+        "status": "applied_unchanged",
+        "invalid_recall": 0.781328320802005,
+        "invalid_precision": 0.6597883597883598,
+        "valid_retention": 0.4628237259816207,
+        "accuracy": 0.6448263515932688,
+        "n": 2793,
+        "invalid_recall_ci95": [
+          0.7556390977443609,
+          0.8051378446115288
+        ],
+        "invalid_precision_ci95": [
+          0.6462694578636607,
+          0.6736788096459723
+        ],
+        "test_precision_target_met": false
+      }
+    }
+  },
+  "limitations": [
+    "First pass inspected; preserve all 901 sealed pairs for future confirmation.",
+    "Accuracy is prevalence-dependent; retain precision, recall, valid retention and per-type results.",
+    "Seed means are descriptive, not confidence intervals over training randomness."
+  ],
+  "three_seed_means": {
+    "describe": {
+      "accuracy": 0.6058002148227711,
+      "balanced_accuracy": 0.5735519353940407,
+      "valid_retention": 0.34781397939292674
+    },
+    "structured": {
+      "accuracy": 0.6484067311134981,
+      "balanced_accuracy": 0.6217279309384572,
+      "valid_retention": 0.43497632971317185
+    }
+  },
+  "dare": {
+    "complete": false,
+    "missing": [
+      "validity:qwen3vl8b_base"
+    ]
+  },
+  "mm_upd": {
+    "complete": false,
+    "missing": [
+      "native:qwen3vl8b_base",
+      "validity:qwen3vl8b_base"
+    ]
+  }
+}

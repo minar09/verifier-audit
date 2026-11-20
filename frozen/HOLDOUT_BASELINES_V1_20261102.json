@@ -1,0 +1,11 @@
+{
+  "version": "procedural_holdout_baselines_v1",
+  "status": "Exploratory comparison added after seeing tuned model and pixel-baseline results; these holdouts are not confirmatory.",
+  "question": "How do existing untuned and specification-level baseline methods perform on the exact procedural holdouts evaluated for the tuned verifiers?",
+  "populations": {"test_id": 2505, "test_ood": 1795},
+  "models": ["qwen3vl2b", "qwen3vl8b", "omniverifier7b"],
+  "prompt": "Existing common holistic p_v1 prompt with question, labeled panels, options and key, without hidden specification. Greedy decoding; 320 new tokens for all three base checkpoints; this differs from structured internal inference (120).",
+  "rules": "Existing R1 scene-specification rules access structured item JSON and are therefore a different input regime. Any rule exception is an invalid run, not silently converted to a verdict.",
+  "metrics": "Binary invalid recall, invalid precision, valid retention, accuracy and balanced accuracy, with parsing failures retained as in the existing scorer. Report all seeds for tuned methods separately or mean and seed SD; perform source-base grouped paired bootstrap when comparing predictions.",
+  "limits": ["The test populations and fine-tuned results were inspected before this baseline was selected; this is not a preregistered confirmation.", "Image-only model methods and specification-aware rules use different inputs.", "Structured checkpoint internal decoding used 120 new tokens; zero-shot baselines use 320, so generation policies are not fully matched.", "The 901 MuirBench confirmation pairs remain sealed and are not inputs to this experiment."]
+}

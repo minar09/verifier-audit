@@ -1,0 +1,49 @@
+{
+  "train": {
+    "rows": 18720,
+    "groups": 1796,
+    "instances_sha256": "1d2d31dea0dc1869d6a326abf8876bc5dc93d3671cba8cffaee244990bca84d5",
+    "specs_sha256": "56258857a9d1384c0bec53c63c821ea6d2927463cc6b24a4a6ec3b41ec2478a1",
+    "legacy_reconstructed_keys": [
+      "pg_train_A9_rotscale_00007__qswap_angle_rekeyed_270__input_570a8a6bca9f",
+      "pg_train_A9_rotscale_00332__qswap_angle_rekeyed_270__input_cbcc89d6a062",
+      "pg_train_A9_rotscale_00384__qswap_angle_rekeyed_270__input_f98712600538",
+      "pg_train_A9_rotscale_00410__qswap_angle_rekeyed_270__input_013b9e7c1052",
+      "pg_train_A9_rotscale_00904__qswap_angle_rekeyed_270__input_434e64012cfc",
+      "pg_train_A9_rotscale_01034__qswap_angle_rekeyed_270__input_ca6b3c8799a5",
+      "pg_train_A9_rotscale_01164__qswap_angle_rekeyed_90__input_a0957a53d6dc",
+      "pg_train_A9_rotscale_01333__qswap_angle_rekeyed_270__input_7ce5aa075a0b",
+      "pg_train_A9_rotscale_01697__qswap_angle_rekeyed_90__input_ce6e894377ce"
+    ]
+  },
+  "dev": {
+    "rows": 1889,
+    "groups": 180,
+    "instances_sha256": "251b1e96e78b1c3a6ba955ff1a387c20fe3fc4ad9257b54990c455b7c8d32916",
+    "specs_sha256": "1ed0b5c3dcd3509ccf5f389d88cfa7bd97b4c82976c03b2b5092de9a3958b553",
+    "legacy_reconstructed_keys": [
+      "pg_dev_A9_rotscale_00137__qswap_angle_rekeyed_270__input_8b0c58aab832"
+    ]
+  },
+  "test_id": {
+    "rows": 2505,
+    "groups": 239,
+    "instances_sha256": "2aae5cd43117a53ab822996c9923c090bc9be537e76151de62af038c521f0cc4",
+    "specs_sha256": "66a3fad438551ede824d72db140aa6686e1580d009478710e04b5223d1a131f8",
+    "legacy_reconstructed_keys": [
+      "pg_test_id_A9_rotscale_00020__qswap_angle_rekeyed_90__input_18704b0b751d"
+    ]
+  },
+  "test_ood": {
+    "rows": 1795,
+    "groups": 200,
+    "instances_sha256": "58063733c858ce1ff4cba9fdc7b49682388a4750c12323f1f2a305f1e3cdb578",
+    "specs_sha256": "e5787038f5a474fdc2aa84126fb147a07138eb688f585d000414c3b266cbce2a",
+    "legacy_reconstructed_keys": []
+  },
+  "calibration_v1": {
+    "rows": 300,
+    "groups": 148,
+    "instances_sha256": "5f1042237e9d9c334ba332bd834fae3bb460b6301162e2f02080e918ca862b99"
+  }
+}

@@ -1,0 +1,100 @@
+{
+ "errors": {
+  "no valid base in 20 attempts": 5
+ },
+ "by_split": {
+  "train": {
+   "bases": 1796,
+   "instances": 18720,
+   "valid_rate": 0.417,
+   "by_defect": {
+    "no_correct": 3549,
+    "none": 7803,
+    "multi_correct": 3925,
+    "key_mismatch": 3443
+   },
+   "by_template": {
+    "A1_identity": 1560,
+    "A2_rotate": 2030,
+    "A3_mirror": 1476,
+    "A5_tworule": 2079,
+    "A6_order": 1508,
+    "A7_sequence": 1523,
+    "A8_symcomplete": 1620,
+    "A9_rotscale": 1766,
+    "B_any": 855,
+    "B_move": 1241,
+    "B_multi": 718,
+    "B_recolor": 1241,
+    "B_remove": 1103
+   }
+  },
+  "dev": {
+   "bases": 180,
+   "instances": 1889,
+   "valid_rate": 0.413,
+   "by_defect": {
+    "no_correct": 361,
+    "none": 781,
+    "multi_correct": 398,
+    "key_mismatch": 349
+   },
+   "by_template": {
+    "A1_identity": 157,
+    "A2_rotate": 204,
+    "A3_mirror": 153,
+    "A5_tworule": 209,
+    "A6_order": 150,
+    "A7_sequence": 154,
+    "A8_symcomplete": 163,
+    "A9_rotscale": 185,
+    "B_any": 80,
+    "B_move": 126,
+    "B_multi": 70,
+    "B_recolor": 126,
+    "B_remove": 112
+   }
+  },
+  "test_id": {
+   "bases": 239,
+   "instances": 2505,
+   "valid_rate": 0.415,
+   "by_defect": {
+    "no_correct": 464,
+    "none": 1040,
+    "multi_correct": 542,
+    "key_mismatch": 459
+   },
+   "by_template": {
+    "A1_identity": 220,
+    "A2_rotate": 279,
+    "A3_mirror": 198,
+    "A5_tworule": 284,
+    "A6_order": 219,
+    "A7_sequence": 208,
+    "A8_symcomplete": 211,
+    "A9_rotscale": 228,
+    "B_any": 105,
+    "B_move": 162,
+    "B_multi": 85,
+    "B_recolor": 162,
+    "B_remove": 144
+   }
+  },
+  "test_ood": {
+   "bases": 200,
+   "instances": 1795,
+   "valid_rate": 0.387,
+   "by_defect": {
+    "no_correct": 400,
+    "none": 695,
+    "multi_correct": 400,
+    "key_mismatch": 300
+   },
+   "by_template": {
+    "A4_rotonly": 1095,
+    "B_add": 700
+   }
+  }
+ }
+}

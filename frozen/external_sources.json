@@ -1,0 +1,86 @@
+{
+  "muirbench": {
+    "repo_id": "MUIRBENCH/MUIRBENCH",
+    "revision": "4c393cffc985c77d28de3b9045e2e5186920df80",
+    "downloads": [
+      {
+        "file": "data/external/20261021/muirbench/data/test-00000-of-00005.parquet",
+        "url": "https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH/resolve/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00000-of-00005.parquet",
+        "bytes": 106958374,
+        "sha256": "96fd87726ffec5d6a337cccf54d6178835217367acebe2be9d3f54b1325dd53c"
+      },
+      {
+        "file": "data/external/20261021/muirbench/data/test-00001-of-00005.parquet",
+        "url": "https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH/resolve/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00001-of-00005.parquet",
+        "bytes": 103488565,
+        "sha256": "0869604f9ed84cff144e168a027f20aca13dda72bb8a7b841b1ef7d1d1643aa5"
+      },
+      {
+        "file": "data/external/20261021/muirbench/data/test-00002-of-00005.parquet",
+        "url": "https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH/resolve/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00002-of-00005.parquet",
+        "bytes": 24691917,
+        "sha256": "1025c536cc73c4ce3c2a78de65929979b14798e5090dc966bca4d8b0835ed76f"
+      },
+      {
+        "file": "data/external/20261021/muirbench/data/test-00003-of-00005.parquet",
+        "url": "https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH/resolve/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00003-of-00005.parquet",
+        "bytes": 120033421,
+        "sha256": "7acdfe55af599f7d6a967b8b2186adef194431cc7f51ac4c64d32766f9ef55e8"
+      },
+      {
+        "file": "data/external/20261021/muirbench/data/test-00004-of-00005.parquet",
+        "url": "https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH/resolve/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00004-of-00005.parquet",
+        "bytes": 74268708,
+        "sha256": "51ff6c59b5abe3f75218c4fdd5d88fb2cc172e0d9e05b78ad689ec2581430ef4"
+      }
+    ]
+  },
+  "dare": {
+    "repo_id": "cambridgeltl/DARE",
+    "revision": "31cfa899e7f18543ff86b45c39d3b023e599d292",
+    "downloads": [
+      {
+        "file": "data/external/20261021/dare/1_correct/validation/0000.parquet",
+        "url": "https://huggingface.co/datasets/cambridgeltl/DARE/resolve/31cfa899e7f18543ff86b45c39d3b023e599d292/1_correct/validation/0000.parquet",
+        "bytes": 140555331,
+        "sha256": "1e1d14ca6725bc07f071d08ca1bc295e8c74d0abb2ad049993304d0574807779"
+      },
+      {
+        "file": "data/external/20261021/dare/1_correct_var/validation/0000.parquet",
+        "url": "https://huggingface.co/datasets/cambridgeltl/DARE/resolve/31cfa899e7f18543ff86b45c39d3b023e599d292/1_correct_var/validation/0000.parquet",
+        "bytes": 128578396,
+        "sha256": "fd1b551c8fbf55cb2eb8fbf26bfbc27d395500c55ad0eabaa7f04154291fe9d6"
+      },
+      {
+        "file": "data/external/20261021/dare/n_correct/validation/0000.parquet",
+        "url": "https://huggingface.co/datasets/cambridgeltl/DARE/resolve/31cfa899e7f18543ff86b45c39d3b023e599d292/n_correct/validation/0000.parquet",
+        "bytes": 133593350,
+        "sha256": "febcfd1b8a0e8233c35927b373f4d86b3403a255a391061b2f7c8689f571d277"
+      }
+    ]
+  },
+  "mm_upd": {
+    "repo_id": "MM-UPD/MM-UPD",
+    "revision": "e4fa42387e422a01786b0991998c75a9cc355010",
+    "downloads": [
+      {
+        "file": "data/external/20261021/mm_upd/data/mmaad_20240303_base.tsv",
+        "url": "https://huggingface.co/datasets/MM-UPD/MM-UPD/resolve/e4fa42387e422a01786b0991998c75a9cc355010/data/mmaad_20240303_base.tsv",
+        "bytes": 173853124,
+        "sha256": "d3de9080bbd86b8de9424ae1f46a8d9bf020df550e41f13a39804932d3d64cfb"
+      },
+      {
+        "file": "data/external/20261021/mm_upd/data/mmiasd_20240303_base.tsv",
+        "url": "https://huggingface.co/datasets/MM-UPD/MM-UPD/resolve/e4fa42387e422a01786b0991998c75a9cc355010/data/mmiasd_20240303_base.tsv",
+        "bytes": 223515580,
+        "sha256": "2a81c0024e28b9327748cb363b689c891628c8859bdcdb7107efa4a5c2c26c8a"
+      },
+      {
+        "file": "data/external/20261021/mm_upd/data/mmivqd_20240303_base.tsv",
+        "url": "https://huggingface.co/datasets/MM-UPD/MM-UPD/resolve/e4fa42387e422a01786b0991998c75a9cc355010/data/mmivqd_20240303_base.tsv",
+        "bytes": 76142945,
+        "sha256": "d89e0fb510b8ec993a66fcd4dc37eedbf567227b1f8d9cb47d12e08960c57f28"
+      }
+    ]
+  }
+}

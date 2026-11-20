@@ -1,0 +1,434 @@
+{
+ "scope": "Exploratory language swap on previously inspected holdouts with draft, not human-validated translations. Intervals are paired source-group percentile intervals conditional on fixed checkpoints, without multiplicity correction. Timing is descriptive: up to four processes shared one GPU with unrelated work. Some Korean predictions were recovered from ordered outputs and lack direct checkpoint hashes; matching calibration records only corroborate their checkpoint identity.",
+ "splits": {
+  "test_id": {
+   "qwen3vl2b": {
+    "checkpoints": [
+     "qwen3vl2b"
+    ],
+    "comparison_provenance": {
+     "qwen3vl2b": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.5109543187188238,
+     "invalid_recall": 0.2334470989761092,
+     "valid_retention": 0.7884615384615384
+    },
+    "english": {
+     "balanced_accuracy": 0.5242927933840903,
+     "invalid_recall": 0.33993174061433445,
+     "valid_retention": 0.7086538461538462
+    },
+    "per_checkpoint_delta": [
+     0.013338474665266498
+    ],
+    "english_parse_fail": [
+     0
+    ],
+    "verdict_agreement": 0.7904191616766467,
+    "english_minus_korean": {
+     "delta_bacc": 0.013338474665266498,
+     "ci95": [
+      -0.003630177563613647,
+      0.030686735400084496
+     ],
+     "groups": 239,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 1.8844787888228893
+   },
+   "omniverifier7b": {
+    "checkpoints": [
+     "omniverifier7b"
+    ],
+    "comparison_provenance": {
+     "omniverifier7b": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.5830040693095301,
+     "invalid_recall": 0.6102389078498294,
+     "valid_retention": 0.5557692307692308
+    },
+    "english": {
+     "balanced_accuracy": 0.5894033867156734,
+     "invalid_recall": 0.673037542662116,
+     "valid_retention": 0.5057692307692307
+    },
+    "per_checkpoint_delta": [
+     0.006399317406143301
+    ],
+    "english_parse_fail": [
+     0
+    ],
+    "verdict_agreement": 0.8307385229540918,
+    "english_minus_korean": {
+     "delta_bacc": 0.006399317406143301,
+     "ci95": [
+      -0.009215290327290257,
+      0.022147514461166015
+     ],
+     "groups": 239,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 1.951766496989876
+   },
+   "structured": {
+    "checkpoints": [
+     "v3_structured_s0",
+     "v3_structured_s1",
+     "v3_structured_s2",
+     "v3_structured_s3",
+     "v3_structured_s4"
+    ],
+    "comparison_provenance": {
+     "v3_structured_s0": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_structured_s1": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_structured_s2": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_structured_s3": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_structured_s4": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.8868288920976635,
+     "invalid_recall": 0.8526962457337884,
+     "valid_retention": 0.9209615384615385
+    },
+    "english": {
+     "balanced_accuracy": 0.8768912444211079,
+     "invalid_recall": 0.8147440273037543,
+     "valid_retention": 0.9390384615384615
+    },
+    "per_checkpoint_delta": [
+     0.00024284589130996181,
+     -0.02522315568390654,
+     0.003824822788133342,
+     -0.012102914150695754,
+     -0.016429837227618815
+    ],
+    "english_parse_fail": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "verdict_agreement": 0.9211177644710579,
+    "english_minus_korean": {
+     "delta_bacc": -0.009937647676555805,
+     "ci95": [
+      -0.016955835867812793,
+      -0.0026992657037400005
+     ],
+     "groups": 239,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 1.7291985538322479
+   },
+   "describe": {
+    "checkpoints": [
+     "v3_describe_s0",
+     "v3_describe_s1",
+     "v3_describe_s2",
+     "v3_describe_s3",
+     "v3_describe_s4"
+    ],
+    "comparison_provenance": {
+     "v3_describe_s0": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_describe_s1": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_describe_s2": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_describe_s3": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_describe_s4": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.9276903386715674,
+     "invalid_recall": 0.9473037542662116,
+     "valid_retention": 0.9080769230769231
+    },
+    "english": {
+     "balanced_accuracy": 0.8982337883959044,
+     "invalid_recall": 0.9314675767918089,
+     "valid_retention": 0.865
+    },
+    "per_checkpoint_delta": [
+     -0.04404699396166989,
+     -0.03812352323444468,
+     -0.022783210816487265,
+     -0.014580598582305093,
+     -0.027748424783407666
+    ],
+    "english_parse_fail": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "verdict_agreement": 0.9016367265469062,
+    "english_minus_korean": {
+     "delta_bacc": -0.029456550275662963,
+     "ci95": [
+      -0.043641987959835815,
+      -0.01564636713205408
+     ],
+     "groups": 239,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 5.36559266410768
+   }
+  },
+  "test_ood": {
+   "qwen3vl2b": {
+    "checkpoints": [
+     "qwen3vl2b"
+    ],
+    "comparison_provenance": {
+     "qwen3vl2b": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.5164126880313931,
+     "invalid_recall": 0.09181818181818181,
+     "valid_retention": 0.9410071942446043
+    },
+    "english": {
+     "balanced_accuracy": 0.5525179856115108,
+     "invalid_recall": 0.2,
+     "valid_retention": 0.9050359712230216
+    },
+    "per_checkpoint_delta": [
+     0.03610529758011771
+    ],
+    "english_parse_fail": [
+     0
+    ],
+    "verdict_agreement": 0.871866295264624,
+    "english_minus_korean": {
+     "delta_bacc": 0.03610529758011771,
+     "ci95": [
+      0.022052605243140035,
+      0.050901383725701334
+     ],
+     "groups": 200,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 1.8483211409766227
+   },
+   "omniverifier7b": {
+    "checkpoints": [
+     "omniverifier7b"
+    ],
+    "comparison_provenance": {
+     "omniverifier7b": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.4823315892740353,
+     "invalid_recall": 0.6754545454545454,
+     "valid_retention": 0.2892086330935252
+    },
+    "english": {
+     "balanced_accuracy": 0.5137311968606932,
+     "invalid_recall": 0.7281818181818182,
+     "valid_retention": 0.2992805755395683
+    },
+    "per_checkpoint_delta": [
+     0.03139960758665794
+    ],
+    "english_parse_fail": [
+     0
+    ],
+    "verdict_agreement": 0.9002785515320334,
+    "english_minus_korean": {
+     "delta_bacc": 0.03139960758665794,
+     "ci95": [
+      0.017906240941664674,
+      0.04498202438666572
+     ],
+     "groups": 200,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 2.0122938160784543
+   },
+   "structured": {
+    "checkpoints": [
+     "v3_structured_s0",
+     "v3_structured_s1",
+     "v3_structured_s2",
+     "v3_structured_s3",
+     "v3_structured_s4"
+    ],
+    "comparison_provenance": {
+     "v3_structured_s0": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_structured_s1": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_structured_s2": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_structured_s3": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_structured_s4": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.677914323086985,
+     "invalid_recall": 0.8234545454545454,
+     "valid_retention": 0.5323741007194245
+    },
+    "english": {
+     "balanced_accuracy": 0.7379300196206671,
+     "invalid_recall": 0.7863636363636364,
+     "valid_retention": 0.6894964028776979
+    },
+    "per_checkpoint_delta": [
+     0.06447678221059505,
+     0.0484238064094179,
+     0.07118051013734461,
+     0.06235775016350553,
+     0.053639633747547544
+    ],
+    "english_parse_fail": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "verdict_agreement": 0.8357660167130919,
+    "english_minus_korean": {
+     "delta_bacc": 0.06001569653368233,
+     "ci95": [
+      0.042140828207514844,
+      0.07669639289163954
+     ],
+     "groups": 200,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 1.7150374869816005
+   },
+   "describe": {
+    "checkpoints": [
+     "v3_describe_s0",
+     "v3_describe_s1",
+     "v3_describe_s2",
+     "v3_describe_s3",
+     "v3_describe_s4"
+    ],
+    "comparison_provenance": {
+     "v3_describe_s0": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_describe_s1": "recovered Korean manifest lacks direct checkpoint hash; matching calibration manifest and saved training configuration corroborate but do not prove its checkpoint identity",
+     "v3_describe_s2": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_describe_s3": "direct Korean and English manifest checkpoint and generation-budget match",
+     "v3_describe_s4": "direct Korean and English manifest checkpoint and generation-budget match"
+    },
+    "korean": {
+     "balanced_accuracy": 0.6359241334205363,
+     "invalid_recall": 0.8712727272727273,
+     "valid_retention": 0.4005755395683453
+    },
+    "english": {
+     "balanced_accuracy": 0.6873420536298234,
+     "invalid_recall": 0.8207272727272727,
+     "valid_retention": 0.5539568345323741
+    },
+    "per_checkpoint_delta": [
+     0.027249836494440682,
+     0.073868541530412,
+     -0.0004316546762590523,
+     0.09745258338783513,
+     0.058950294310006646
+    ],
+    "english_parse_fail": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "verdict_agreement": 0.8356545961002786,
+    "english_minus_korean": {
+     "delta_bacc": 0.05141792020928715,
+     "ci95": [
+      0.0378866039197272,
+      0.06435538714488329
+     ],
+     "groups": 200,
+     "resamples": 10000,
+     "accepted_resamples": 10000,
+     "scope": "paired source-group percentile interval; fixed checkpoints; exploratory, no multiplicity correction"
+    },
+    "seconds_per_item_median": 5.106615690048784
+   }
+  }
+ },
+ "completion": {
+  "test_id": {
+   "complete_primary": true,
+   "missing_primary": [],
+   "complete_supplementary": true,
+   "missing_supplementary": []
+  },
+  "test_ood": {
+   "complete_primary": true,
+   "missing_primary": [],
+   "complete_supplementary": true,
+   "missing_supplementary": []
+  }
+ },
+ "sources_sha256": {
+  "ENGLISH_HOLDOUT_V1_20261104.json": "dc23b5af37b88ef19d7616bf177b7b228896ea768961e79eae9b59e8793eb543",
+  "data/runs/english_holdout_v1/test_id/qwen3vl2b.json": "bfe94799cb5dd23ecfdae855228e9174bdd882e320060b24c5a359c83e87accf",
+  "data/runs/holdout_baselines_v1/test_id/qwen3vl2b.json": "d703ccb18ab3e4c4dc1af9b77398bdd4428c3695b497de2a33d35c08ae0f18c6",
+  "data/runs/english_holdout_v1/test_id/omniverifier7b.json": "2d2bb0cf866b49046efcbbfd8bcad88844d45a2a9b0fcb1b17d597f4f91cc622",
+  "data/runs/holdout_baselines_v1/test_id/omniverifier7b.json": "63d24af1ea3c0871536d03e276dbf8c2e655b0354f27764c1dbfab43a5feec7e",
+  "data/runs/english_holdout_v1/test_id/v3_structured_s0.json": "b39c4b7a0d634b8f71ff02cb4afca4b26fde6c8e5f3dee0617632f81fec2ce8e",
+  "data/runs/english_holdout_v1/test_id/v3_structured_s1.json": "a1a83e65733a28e5edc644c2d03fed96026fc29fd01eb4871771aae0e24181ec",
+  "data/runs/english_holdout_v1/test_id/v3_structured_s2.json": "5461730847b47dc39f46638383fd1590812e556f5696956d7efa4ba9c73943bd",
+  "data/runs/english_holdout_v1/test_id/v3_structured_s3.json": "4cb3d7db7cffb54ca88e376ec316e84b705abdecc129d4a08f6c17244af93f5e",
+  "data/runs/english_holdout_v1/test_id/v3_structured_s4.json": "0a54df453f6a884de291249ef6eaefb433d60636db7b3cc344c94a1767f396db",
+  "data/runs/v3_structured_s0/eval_procgen_v3_test_id.json": "5eeb965ae398d2925bb9b347c1fb04e8891173849033dd00a6b0d4c7ecfdb955",
+  "data/runs/v3_structured_s1/eval_procgen_v3_test_id.json": "2e1cd775b8f59a8858d06a3ebd7ba608cb0a15aa58a11cabf7ead185d3d52c8d",
+  "data/runs/v3_structured_s2/eval_procgen_v3_test_id.json": "e904378487aa077ebb47b97aa14f73ab29a5e0937369753cbdf487f5de650823",
+  "data/runs/v3_structured_s3/eval_procgen_v3_test_id.json": "0f9abf0d438bdb038dd214de2ad6dcca8b6392b3133df9dcfbe0b809c1c79f2f",
+  "data/runs/v3_structured_s4/eval_procgen_v3_test_id.json": "5538673399175eacfe9314be02ce01688de189524fb3c5a753dc345200464ffa",
+  "data/runs/english_holdout_v1/test_id/v3_describe_s0.json": "340150135a0b94d33c1780b267cf929ebf57a7056681ddd5727f68bd0e278521",
+  "data/runs/english_holdout_v1/test_id/v3_describe_s1.json": "cdece50a9fbbbe2d53fc70c0fb4f2ad265ae90d184123b424034fa57d213f21e",
+  "data/runs/english_holdout_v1/test_id/v3_describe_s2.json": "337e0bc2308c2753e60e04fe68583aec3476d3b2b6311314d2fdb8d38ec0f874",
+  "data/runs/english_holdout_v1/test_id/v3_describe_s3.json": "34712f34d5f160821cd567481b91b02ad5de628595eb90c940a6a0810d277144",
+  "data/runs/english_holdout_v1/test_id/v3_describe_s4.json": "47cb3b3b76cd1938582f8e47a86e6a2bc449afa82d529137ed35b1c267b7094a",
+  "data/runs/v3_describe_s0/eval_procgen_v3_test_id.json": "9f79b6df26d49fec81476c3afe4e5351c9f10564c8531105911d6cde1ccae188",
+  "data/runs/v3_describe_s1/eval_procgen_v3_test_id.json": "4c56c0f8d5e098ffbd16932f2ac610db0c671ab30986b1fba42cccfd38a51601",
+  "data/runs/v3_describe_s2/eval_procgen_v3_test_id.json": "5ea752d1ad5c6afa86ebe8318834d2964d9dd6e0ee3535538d74cafffaa4d9be",
+  "data/runs/v3_describe_s3/eval_procgen_v3_test_id.json": "7015d26118b246f8f931eb67e22ded7644fb2261453fdb9e890a7ec76e686f5a",
+  "data/runs/v3_describe_s4/eval_procgen_v3_test_id.json": "6e36a27264e17e2bbd4af3e1dc1b73d9710ab775b4d7506d8a343cb29b3ff7c6",
+  "data/runs/english_holdout_v1/test_ood/qwen3vl2b.json": "22732c7aa3bc77dda34768640bf5aa9c3ff0f564581f21746e55c1db3b5bc764",
+  "data/runs/holdout_baselines_v1/test_ood/qwen3vl2b.json": "5e801b10c5b52b7bdefcb7354392a503317b377b40e341f3942e802fa3c0f6e1",
+  "data/runs/english_holdout_v1/test_ood/omniverifier7b.json": "ea57d592ca18a3505924e103a44a5436d0de9820f5c8d7e2fe881e2c9f91edec",
+  "data/runs/holdout_baselines_v1/test_ood/omniverifier7b.json": "c86e6713b59df828ea9f15aeebad9c17bbfbf92998009475900aa3d64095ff8d",
+  "data/runs/english_holdout_v1/test_ood/v3_structured_s0.json": "80a2f44588bc7521842923243f5838bd2722ea446a739f83ae3960e6b44072ed",
+  "data/runs/english_holdout_v1/test_ood/v3_structured_s1.json": "359399fe40567a7b670a1b1cad92bbaa8032ea9474ec7a429146b33d3b346527",
+  "data/runs/english_holdout_v1/test_ood/v3_structured_s2.json": "8bfd2ca4aaef20fb5521ee5ef0dc8daacd618e0d26e9910897e55fd460b8f1c8",
+  "data/runs/english_holdout_v1/test_ood/v3_structured_s3.json": "99471b84d474aa1c2b58b4aed6b2d95b49e935c9e9e38aefb412f5b24c331305",
+  "data/runs/english_holdout_v1/test_ood/v3_structured_s4.json": "fdca10087c17572581fefd4c917330437c9568a9ba5fa5bb3c452dae8d071c46",
+  "data/runs/v3_structured_s0/eval_procgen_v3_test_ood.json": "6f0e06995a68bcf0b15e05337a6590b34f0458908589cf5666fcfc6bf935465e",
+  "data/runs/v3_structured_s1/eval_procgen_v3_test_ood.json": "62ef5b7d2ec09f57ef5acd3d195b47a8bdafecbfdf042ebb7f5005ca6d5f12e5",
+  "data/runs/v3_structured_s2/eval_procgen_v3_test_ood.json": "ba58ddd24abaac56ec2da03dd8875249d940b5d16df4f7deff54a2e863bc6b3d",
+  "data/runs/v3_structured_s3/eval_procgen_v3_test_ood.json": "f01056328720b53b88bdd8c442b56a9477063cebf0faf685e271c7f018d45277",
+  "data/runs/v3_structured_s4/eval_procgen_v3_test_ood.json": "d1069d86ea76c6c5760423c8e93e8f800f954a7336366f4c52a5332e352ca524",
+  "data/runs/english_holdout_v1/test_ood/v3_describe_s0.json": "cecf016bc2409525db3dbc16783b8841788f4b446e66db57a0c2ba2d3f017828",
+  "data/runs/english_holdout_v1/test_ood/v3_describe_s1.json": "da98d9b54fde2a7685a36b45a1029c8f6457be937853de8b2828a6992b7ca3ca",
+  "data/runs/english_holdout_v1/test_ood/v3_describe_s2.json": "4f1e4ed0fc5428b1d5d1602cd032e3ffad5a282f5f29ce1d41090c726627fd29",
+  "data/runs/english_holdout_v1/test_ood/v3_describe_s3.json": "19260f416b8248d71fce2928a52903ec2a967db8560f7e15e646d785dde71754",
+  "data/runs/english_holdout_v1/test_ood/v3_describe_s4.json": "4c7eae14f9aba8b5a3182a519fbd49b523bf6d224cf14902e46b843069af273a",
+  "data/runs/v3_describe_s0/eval_procgen_v3_test_ood.json": "59a5631e45c0aa96069ab9b38717ed9c8fed64c610491d7126aa82d317789197",
+  "data/runs/v3_describe_s1/eval_procgen_v3_test_ood.json": "e482d72583ca56aae0665c4ee409ec18fd7580617109c225215ecbf6702acc6e",
+  "data/runs/v3_describe_s2/eval_procgen_v3_test_ood.json": "b3710f333140aaa29395c2c78154fd70299534a3ad7934f0625a20a5d0894e58",
+  "data/runs/v3_describe_s3/eval_procgen_v3_test_ood.json": "f779c243e14d32e5005ed6c829ffc4d17067fae35fccda3da5b1d08551adbeea",
+  "data/runs/v3_describe_s4/eval_procgen_v3_test_ood.json": "c9aded20030a43c3e833e38aa87e24977ec08aa54dac76095abab8f11b7ed0ca"
+ }
+}

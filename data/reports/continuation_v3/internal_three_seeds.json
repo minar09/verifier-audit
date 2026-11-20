@@ -1,0 +1,247 @@
+{
+ "by_run": {
+  "v3_describe_s0:natural_pilot": {
+   "invalid_recall": 0.9603960396039604,
+   "invalid_precision": 0.9150943396226415,
+   "valid_retention": 0.88,
+   "accuracy": 0.9261363636363636,
+   "n": 176
+  },
+  "v3_describe_s1:natural_pilot": {
+   "invalid_recall": 0.9603960396039604,
+   "invalid_precision": 0.9150943396226415,
+   "valid_retention": 0.88,
+   "accuracy": 0.9261363636363636,
+   "n": 176
+  },
+  "v3_describe_s2:natural_pilot": {
+   "invalid_recall": 0.9702970297029703,
+   "invalid_precision": 0.9074074074074074,
+   "valid_retention": 0.8666666666666667,
+   "accuracy": 0.9261363636363636,
+   "n": 176
+  },
+  "v3_structured_s0:natural_pilot": {
+   "invalid_recall": 0.9207920792079208,
+   "invalid_precision": 0.9029126213592233,
+   "valid_retention": 0.8666666666666667,
+   "accuracy": 0.8977272727272727,
+   "n": 176
+  },
+  "v3_structured_s1:natural_pilot": {
+   "invalid_recall": 0.9207920792079208,
+   "invalid_precision": 0.9117647058823529,
+   "valid_retention": 0.88,
+   "accuracy": 0.9034090909090909,
+   "n": 176
+  },
+  "v3_structured_s2:natural_pilot": {
+   "invalid_recall": 0.9108910891089109,
+   "invalid_precision": 0.9484536082474226,
+   "valid_retention": 0.9333333333333333,
+   "accuracy": 0.9204545454545454,
+   "n": 176
+  },
+  "v3_describe_s0:procgen_v3_test_id": {
+   "invalid_recall": 0.9494880546075085,
+   "invalid_precision": 0.9494880546075085,
+   "valid_retention": 0.9288461538461539,
+   "accuracy": 0.9409181636726547,
+   "n": 2505
+  },
+  "v3_describe_s1:procgen_v3_test_id": {
+   "invalid_recall": 0.9331058020477816,
+   "invalid_precision": 0.9261517615176151,
+   "valid_retention": 0.8951923076923077,
+   "accuracy": 0.9173652694610779,
+   "n": 2505
+  },
+  "v3_describe_s2:procgen_v3_test_id": {
+   "invalid_recall": 0.9569965870307168,
+   "invalid_precision": 0.9390488948425988,
+   "valid_retention": 0.9125,
+   "accuracy": 0.9385229540918164,
+   "n": 2505
+  },
+  "v3_structured_s0:procgen_v3_test_id": {
+   "invalid_recall": 0.8587030716723549,
+   "invalid_precision": 0.9256806475349522,
+   "valid_retention": 0.9028846153846154,
+   "accuracy": 0.8770459081836327,
+   "n": 2505
+  },
+  "v3_structured_s1:procgen_v3_test_id": {
+   "invalid_recall": 0.8600682593856656,
+   "invalid_precision": 0.9361069836552749,
+   "valid_retention": 0.9173076923076923,
+   "accuracy": 0.8838323353293414,
+   "n": 2505
+  },
+  "v3_structured_s2:procgen_v3_test_id": {
+   "invalid_recall": 0.8559726962457338,
+   "invalid_precision": 0.9337304542069993,
+   "valid_retention": 0.9144230769230769,
+   "accuracy": 0.8802395209580839,
+   "n": 2505
+  },
+  "v3_describe_s0:procgen_v3_test_ood": {
+   "invalid_recall": 0.9045454545454545,
+   "invalid_precision": 0.6914523974982627,
+   "valid_retention": 0.36115107913669064,
+   "accuracy": 0.694150417827298,
+   "n": 1795
+  },
+  "v3_describe_s1:procgen_v3_test_ood": {
+   "invalid_recall": 0.8272727272727273,
+   "invalid_precision": 0.6463068181818182,
+   "valid_retention": 0.28345323741007195,
+   "accuracy": 0.6167130919220055,
+   "n": 1795
+  },
+  "v3_describe_s2:procgen_v3_test_ood": {
+   "invalid_recall": 0.9554545454545454,
+   "invalid_precision": 0.762699564586357,
+   "valid_retention": 0.5294964028776978,
+   "accuracy": 0.7905292479108635,
+   "n": 1795
+  },
+  "v3_structured_s0:procgen_v3_test_ood": {
+   "invalid_recall": 0.8190909090909091,
+   "invalid_precision": 0.7397372742200329,
+   "valid_retention": 0.543884892086331,
+   "accuracy": 0.7125348189415042,
+   "n": 1795
+  },
+  "v3_structured_s1:procgen_v3_test_ood": {
+   "invalid_recall": 0.8272727272727273,
+   "invalid_precision": 0.7731520815632965,
+   "valid_retention": 0.6158273381294964,
+   "accuracy": 0.7454038997214485,
+   "n": 1795
+  },
+  "v3_structured_s2:procgen_v3_test_ood": {
+   "invalid_recall": 0.8072727272727273,
+   "invalid_precision": 0.7381546134663342,
+   "valid_retention": 0.5467625899280576,
+   "accuracy": 0.7064066852367687,
+   "n": 1795
+  }
+ },
+ "missing": [],
+ "three_seed_mean_sd": {
+  "natural_pilot:describe": {
+   "accuracy": {
+    "mean": 0.9261363636363636,
+    "sd_across_seeds": 0.0
+   },
+   "invalid_recall": {
+    "mean": 0.9636963696369637,
+    "sd_across_seeds": 0.005716339298907191
+   },
+   "invalid_precision": {
+    "mean": 0.9125320288842301,
+    "sd_across_seeds": 0.004438052383707807
+   },
+   "valid_retention": {
+    "mean": 0.8755555555555556,
+    "sd_across_seeds": 0.007698003589194996
+   }
+  },
+  "natural_pilot:structured": {
+   "accuracy": {
+    "mean": 0.9071969696969697,
+    "sd_across_seeds": 0.011827647724239372
+   },
+   "invalid_recall": {
+    "mean": 0.9174917491749176,
+    "sd_across_seeds": 0.005716339298907191
+   },
+   "invalid_precision": {
+    "mean": 0.9210436451629995,
+    "sd_across_seeds": 0.024146830171230167
+   },
+   "valid_retention": {
+    "mean": 0.8933333333333332,
+    "sd_across_seeds": 0.035276684147527874
+   }
+  },
+  "procgen_v3_test_id:describe": {
+   "accuracy": {
+    "mean": 0.9322687957418497,
+    "sd_across_seeds": 0.01296227522216976
+   },
+   "invalid_recall": {
+    "mean": 0.9465301478953356,
+    "sd_across_seeds": 0.012216968153500618
+   },
+   "invalid_precision": {
+    "mean": 0.9382295703225741,
+    "sd_across_seeds": 0.011689701163681926
+   },
+   "valid_retention": {
+    "mean": 0.9121794871794872,
+    "sd_across_seeds": 0.016829212298493684
+   }
+  },
+  "procgen_v3_test_id:structured": {
+   "accuracy": {
+    "mean": 0.8803725881570194,
+    "sd_across_seeds": 0.0033951698794872118
+   },
+   "invalid_recall": {
+    "mean": 0.8582480091012514,
+    "sd_across_seeds": 0.0020853586780231396
+   },
+   "invalid_precision": {
+    "mean": 0.9318393617990756,
+    "sd_across_seeds": 0.005464365845637261
+   },
+   "valid_retention": {
+    "mean": 0.9115384615384615,
+    "sd_across_seeds": 0.007631974935763215
+   }
+  },
+  "procgen_v3_test_ood:describe": {
+   "accuracy": {
+    "mean": 0.7004642525533891,
+    "sd_across_seeds": 0.08707991962787431
+   },
+   "invalid_recall": {
+    "mean": 0.8957575757575759,
+    "sd_across_seeds": 0.06454118637189753
+   },
+   "invalid_precision": {
+    "mean": 0.7001529267554792,
+    "sd_across_seeds": 0.058682128973943856
+   },
+   "valid_retention": {
+    "mean": 0.39136690647482014,
+    "sd_across_seeds": 0.12577383267050474
+   }
+  },
+  "procgen_v3_test_ood:structured": {
+   "accuracy": {
+    "mean": 0.7214484679665739,
+    "sd_across_seeds": 0.020971064317235368
+   },
+   "invalid_recall": {
+    "mean": 0.8178787878787879,
+    "sd_across_seeds": 0.010054945468507317
+   },
+   "invalid_precision": {
+    "mean": 0.7503479897498879,
+    "sd_across_seeds": 0.019764770586604426
+   },
+   "valid_retention": {
+    "mean": 0.5688249400479616,
+    "sd_across_seeds": 0.04073069303704967
+   }
+  }
+ },
+ "complete": true,
+ "seeds": [
+  0,
+  1,
+  2
+ ]
+}
